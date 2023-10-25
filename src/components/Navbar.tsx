@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 
 import { Sun } from "lucide-react";
-import { ModeToggle } from "./ModeToggle";
+/* import { ModeToggle } from "./ModeToggle"; */
 
 const navigation = [
   { name: "Home", href: "/", current: false },
