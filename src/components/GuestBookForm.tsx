@@ -29,6 +29,7 @@ export default function GuestBookForm() {
         reset()
       } catch (error) {
         toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente!')
+        console.log(error);
  
       }
   }
