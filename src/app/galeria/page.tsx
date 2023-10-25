@@ -174,9 +174,9 @@ export default function Home() {
               open={open}
               close={() => setOpen(false)}
               plugins={[Zoom]}
-              showPrevNext={false}
               slides={slides}
             />
+            {/*  showPrevNext={false} */}
           </div>
         </div>
       </section>
