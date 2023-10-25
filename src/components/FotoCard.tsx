@@ -24,94 +24,87 @@ export default function FotoCard() {
     []
   );
   return (
-
     <div className="w-[100%] lg:w-[50%] bg-gradient-to-tl from-gray-700 via-gray-700 to-gray-900  dark:bg-gradient-to-tl black:from-blue-900 dark:via-gray-900 dark:to-blue-950 rounded-r-3xl rounded-t-3xl  h-80">
-    <Particles
-    className="h-[100%]"
-    id="tsparticles"
-    init={particlesInit}
-    loaded={particlesLoaded}
-    options={{
-
-      fullScreen:{
-        enable:false,
-        zIndex:0
-      },
-        
-        fpsLimit: 120,
-        interactivity: {
+      <Particles
+        className="h-[100%]"
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          fullScreen: {
+            enable: false,
+            zIndex: 0,
+          },
+          fpsLimit: 120,
+          interactivity: {
             events: {
-                onClick: {
-                    enable: true,
-                    mode: "push",
-                },
-                onHover: {
-                    enable: true,
-                    mode: "repulse",
-                },
-                resize: true,
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+              resize: true,
             },
             modes: {
-                push: {
-                    quantity: 4,
-                },
-                repulse: {
-                    distance: 200,
-                    duration: 0.4,
-                },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
             },
-        },
-        particles: {
+          },
+          particles: {
             color: {
-                value: "#ffffff",
+              value: "#ffffff",
             },
             links: {
-                color: "#ffffff",
-                distance: 150,
-                enable: true,
-                opacity: 0.5,
-                width: 1,
+              color: "#ffffff",
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
             },
             move: {
-                direction: "none",
-                enable: true,
-                outModes: {
-                    default: "bounce",
-                },
-                random: false,
-                speed: 6,
-                straight: false,
+              direction: "none",
+              enable: true,
+              outModes: {
+                default: "bounce",
+              },
+              random: false,
+              speed: 6,
+              straight: false,
             },
             number: {
-                density: {
-                    enable: true,
-                    area: 800,
-                },
-                value: 200,
+              density: {
+                enable: true,
+                area: 800,
+              },
+              value: 200,
             },
             opacity: {
-                value: 0.5,
+              value: 0.5,
             },
             shape: {
-                type: "circle",
+              type: "circle",
             },
             size: {
-                value: { min: 1, max: 5 },
+              value: { min: 1, max: 5 },
             },
-        },
-        detectRetina: true,
-    }}
->
+          },
+          detectRetina: true,
+        }}
+      />
 
-  
-{/*     <div className=" w-[100%] lg:w-[50%] bg-gradient-to-tl from-gray-700 via-gray-700 to-gray-900  dark:bg-gradient-to-tl black:from-blue-900 dark:via-gray-900 dark:to-blue-950 rounded-r-3xl rounded-t-3xl  h-80"> */}
-      
-   
-   {/*  </div> */}
+      {/*     <div className=" w-[100%] lg:w-[50%] bg-gradient-to-tl from-gray-700 via-gray-700 to-gray-900  dark:bg-gradient-to-tl black:from-blue-900 dark:via-gray-900 dark:to-blue-950 rounded-r-3xl rounded-t-3xl  h-80"> */}
 
-    </Particles>
-    
-    <Image
+      {/*  </div> */}
+
+      <Image
         src="/profile.png"
         alt="Manuel Foto"
         className="profile-img  mt-[-350px]"
@@ -119,7 +112,6 @@ export default function FotoCard() {
         height={200}
         priority
       />
-
-</div>
+    </div>
   );
 }
