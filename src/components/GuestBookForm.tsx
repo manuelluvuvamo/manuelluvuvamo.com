@@ -23,15 +23,15 @@ export default function GuestBookForm() {
   });
 
   const onSubmit = async (data: contactFormData) => {
-      /* try { */
+      try {
         await axios.post('/api/contact', data)
         toast.success('Mensagem enviada com sucesso!')
         reset()
-      /* } catch (error) {
+      } catch (error) {
         toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente!')
         console.log(error);
  
-      } */
+      }
   }
   return (
     <form
