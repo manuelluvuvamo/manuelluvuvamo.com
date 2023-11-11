@@ -21,11 +21,26 @@ import Sobre from "@/components/Sobre";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectCard2 from "@/components/ProjectCard2";
 import BlogCard from "@/components/BlogCard";
-
+import fs from 'fs'
+import path from "path";
+import matter from 'gray-matter'
 /* import { ThemeProvider } from "next-themes"; */
 
 
 export default function Home() {
+  const blogDir = 'blogs';
+  const files = fs.readdirSync(path.join(blogDir));
+
+  const blogs = files.map(filename => {
+    const fileContent = fs.readFileSync(path.join(blogDir, filename), 'utf-8')
+
+    const {data: frontMatter} = matter(fileContent);
+    return {
+      meta: frontMatter,
+      slug: filename.replace('.mdx','')
+    }
+  })
+
   return (
     <main className="min-h-screen ">
       <Navbar />
@@ -36,17 +51,12 @@ export default function Home() {
 
           <div className="mt-10 flex flex-col text-left justify-start items-start lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
           
-           <BlogCard titulo="Lorem, ipsum dolor sit amet" desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit..." views="1K" data="Outubro 21, 2023"/>
-
-            
-           <BlogCard titulo="Lorem, ipsum dolor sit amet" desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit..." views="1K" data="Outubro 21, 2023"/>
-
-            
-           <BlogCard titulo="Lorem, ipsum dolor sit amet" desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit..." views="1K" data="Outubro 21, 2023"/>
-
-            
-           <BlogCard titulo="Lorem, ipsum dolor sit amet" desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit..." views="1K" data="Outubro 21, 2023"/>
-
+          {blogs.map(blog=>(
+            <Link href={'/blogs/'+blog.slug} passHref key={blog.slug}>
+           <BlogCard titulo={blog.meta.title} desc={blog.meta.description} views="1K" data={blog.meta.date}/>
+           </Link>
+           ))}
+          
           
           </div>
         </div>

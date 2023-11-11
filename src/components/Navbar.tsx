@@ -13,7 +13,7 @@ const navigation = [
   { name: "Projectos", href: "projectos", current: false },
   { name: "Blog", href: "blog", current: false },
   { name: "Galeria", href: "galeria", current: false },
-  { name: "Resumo", href: "/Resumo.pdf", current: false, target: "_blank" },
+  { name: "Currículo", href: "/Curriculo.pdf", current: false, target: "_blank" },
   { name: "Contacto", href: "contact", current: false },
 ];
 
@@ -26,10 +26,10 @@ export default function Navbar() {
   /* const {theme, setTheme} = useTheme(); */
   /* const currentTheme = theme === 'system' ? systemTheme : theme; */
   return (
-    <div className="flex flex-col items-center justify-between pt-24">
-      <div className="z-10 max-w-4xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <div className="flex flex-col items-center justify-between lg:pt-24">
+      <div className="z-10 max-w-4xl w-full items-center justify-between font-mono text-sm flex flex-wrap-reverse">
         {/* MENU */}
-        <nav className="border-b border-gray-300 bg-gradient-to-b   pb-6 pt-8  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit  lg:w-auto  lg:rounded-xl lg:border lg:light:bg-gray-200  lg:py-4 -lg:px-0 lg:dark:bg-zinc-800/30">
+        <nav className="   pb-6 pt-8  backdrop-blur-2xl  lg:w-auto  lg:rounded-xl    lg:py-4 -lg:px-0  ">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-2">
             <div className="relative flex h-6 items-center justify-between">
               <div className="flex flex-1 items-center justify-center sm:items-stretch  sm:justify-start">
@@ -72,7 +72,7 @@ export default function Navbar() {
         {/* fim menu */}
 
         {/*  dark:from-black dark:via-black  */}
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="flex h-28 w-full items-start lg:items-end justify-center bg-gradient-to-t from-white via-white static lg:h-auto lg:w-auto lg:bg-none">
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 cursor-pointer">
             <div className="flex flex-col  text-right">
               <span className="font-display text-base">Manuel</span>

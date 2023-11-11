@@ -53,17 +53,17 @@ export default function Home() {
 
               <div className="w-[100%] mt-4  text-center mb-10  lg:mb-0  lg:text-right flex flex-wrap justify-end items-start gap-8  ">
                 <Link
-                  href="/Resumo.pdf"
+                  href="/Curriculo.pdf"
                   className="w-[100%] lg:w-[40%] rounded-xl border  flex justify-center items-center py-4 transition-colors hover:border-gray-300 border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30  dark:border-neutral-700 "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h2 className={` text-md font-medium`}>Resumo</h2>
+                  <h2 className={` text-md font-medium`}>Currículo</h2>
                 </Link>
 
                 <Link
                   href="projectos"
-                  className="w-[100%] lg:w-[40%] rounded-xl border  flex justify-center items-center py-4  transition-colors hover:border-gray-300 border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30  dark:border-neutral-700 "
+                  className="w-[100%] lg:w-[40%] rounded-xl border  flex justify-center items-center py-4  transition-colors hover:border-gray-300 border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30  dark:border-neutral-700 -mt-6 lg:mt-0"
                   
                   rel="noopener noreferrer"
                 >

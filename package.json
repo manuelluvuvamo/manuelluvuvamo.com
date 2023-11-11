@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
+    "@tailwindcss/typography": "^0.5.10",
     "axios": "^1.5.1",
     "cloudinary": "^1.41.0",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.288.0",
     "next": "13.5.6",
+    "next-mdx-remote": "^4.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.47.0",
@@ -36,5 +40,10 @@
     "postcss": "^8",
     "tailwindcss": "^3",
     "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }

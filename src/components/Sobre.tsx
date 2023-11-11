@@ -95,7 +95,7 @@ export default function Sobre(){
       </p>
     </div>
 
-    <div className="mt-4 grid text-center gap-2 lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-5 lg:text-left">
+    <div className="mt-4 grid text-center gap-2 lg:max-w-4xl w-full lg:mb-0 lg:grid-cols-5 lg:text-left ">
       <a 
         href="https://github.com/manuelluvuvamo"
         className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
