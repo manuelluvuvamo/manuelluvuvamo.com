@@ -1,4 +1,4 @@
-"use client"; // This is a client component 👈🏽
+
 import {
   BookOpen,
   Facebook,
@@ -67,4 +67,4 @@ export default function Home() {
   );
 }
 
-Home.useClient = true;
+
