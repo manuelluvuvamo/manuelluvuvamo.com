@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="Manuel Luvuvamo" src="https://manuelluvuvamo.vercel.app/img/bandeira.jpg" width="100px" />
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=@manuelluvuvamo&message=Awareness&color=ffca00&labelColor=202024" alt="Manuel Luvuvamo Project" />
+  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=ffca00&labelColor=202024" alt="License"></a>
+</p>
 
-First, run the development server:
+## 💻 Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Meu nome é Manuel António Luvuvamo, sou um apaixonado desenvolvedor fullstack, e este é meu portfólio, um projeto que reflete minha jornada e habilidades técnicas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Destaques
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🌐 Desenvolvimento Fullstack: Trabalho com tecnologias front-end e back-end para criar aplicações web dinâmicas e eficientes.
+- 💡 Projetos Inovadores: Explore meu portfólio para descobrir uma variedade de projetos, desde aplicações web interativas até soluções prontas para produção.
+- 🛠️ Stack Tecnológica: Utilizo ferramentas modernas e frameworks, como React.js, Node.js, MongoDB, Laravel e Mysql para desenvolver soluções robustas e escaláveis.
+- 📱 Responsividade: Comprometido em criar interfaces que oferecem uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📂 Projetos Recentes
 
-## Learn More
+#### [Huawei Lead23](https://lead23.itel.gov.ao)
+Portal principal para candidaturas ao projecto de formação profissional nas áreas de Operações de DataCenter, HCIA Datacom e muito mais pertencente à Huawei...
 
-To learn more about Next.js, take a look at the following resources:
+#### [Smartbrace](http://smartbrace.ao)
+Sistema inovador para gerir eventos em Angola integrada com reconhecimento de pulseiras de radiofrequência, que visa melhorar a gestão de eventos...
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🌐 [Confira Meu Portfólio Completo](https://manuelluvuvamo.vercel.app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Explore meu portfólio para obter mais detalhes sobre meu trabalho e para visualizar outros projetos interessantes que desenvolvi. Estou sempre aberto a novas oportunidades e colaborações emocionantes. Sinta-se à vontade para entrar em contato!
 
-## Deploy on Vercel
+## 📝 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+<p align="center">
+  Feito com 💛 by Manuel Luvuvamo
+</p>
+
+<!--START_SECTION:footer-->
+
+<br />
+<br />
+
+<p align="center">
+  <a href="https://manuelluvuvamo.vercel.app/" target="_blank">
+    <img align="center" src="https://manuelluvuvamo.vercel.app/img/angogest.png" alt="banner"/>
+  </a>
+</p>
+
+<!--END_SECTION:footer-->
