@@ -52,9 +52,9 @@ export default function Home() {
           <div className="mt-10 flex flex-col text-left justify-start items-start lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
           
           {blogs.map(blog=>(
-            <Link href={'/blogs/'+blog.slug} passHref key={blog.slug}>
-           <BlogCard titulo={blog.meta.title} desc={blog.meta.description} views="1K" data={blog.meta.date}/>
-           </Link>
+           
+           <BlogCard href={'/blogs/'+blog.slug} key={blog.slug}  titulo={blog.meta.title} desc={blog.meta.description} views="1K" data={blog.meta.date}/>
+          
            ))}
           
           

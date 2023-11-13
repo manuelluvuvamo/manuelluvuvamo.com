@@ -95,10 +95,10 @@ export default function Sobre(){
       </p>
     </div>
 
-    <div className="mt-4 grid text-center gap-2 lg:max-w-4xl w-full lg:mb-0 lg:grid-cols-5 lg:text-left ">
-      <a 
+    <div className="mt-8 grid text-center gap-2 lg:max-w-4xl w-full container lg:mb-0 lg:grid-cols-5 lg:text-left ">
+      <Link 
         href="https://github.com/manuelluvuvamo"
-        className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
+        className="border-gray-300 light:bg-gray-200  hover:animate-none group rounded-xl border flex justify-center items-center py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -106,11 +106,11 @@ export default function Sobre(){
           Github{" "}
           <Github className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />
         </h2>
-      </a>
+      </Link>
 
-      <a
+      <Link
         href="https://twitter.com/manuelluvuvamo"
-        className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
+        className="border-gray-300 light:bg-gray-200  hover:animate-none group rounded-xl border flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -118,11 +118,11 @@ export default function Sobre(){
           Twitter{" "}
           <Twitter className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />
         </h2>
-      </a>
+      </Link>
 
-      <a
+      <Link
         href="https://www.linkedin.com/in/manuel-luvuvamo-912907218/"
-        className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
+        className="border-gray-300 light:bg-gray-200  hover:animate-none group rounded-xl border flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -130,11 +130,11 @@ export default function Sobre(){
           Linked
           <Linkedin className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none -mt-1.5" />
         </h2>
-      </a>
+      </Link>
 
-      <a
+      <Link
         href="https://instagram.com/manuelluvuvamo"
-        className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
+        className="border-gray-300 light:bg-gray-200  hover:animate-none group rounded-xl border flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -142,11 +142,11 @@ export default function Sobre(){
           Instagram{" "}
           <Instagram className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />
         </h2>
-      </a>
+      </Link>
 
-      <a
+      <Link
         href="https://facebook.com/manuelluvuvamo"
-        className="border-gray-300 bg-gray-200  hover:animate-none group rounded-xl border border-transparent flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
+        className="border-gray-300 light:bg-gray-200  hover:animate-none group rounded-xl border flex justify-center items-center py-4  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -154,7 +154,7 @@ export default function Sobre(){
           <Facebook className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none -mt-1.5" />
           acebook{" "}
         </h2>
-      </a>
+      </Link>
     </div>
   </section>
   )

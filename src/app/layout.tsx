@@ -1,4 +1,4 @@
-/* import { ThemeProvider } from "@/components/theme-provider" */
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
 import LocalFont from "next/font/local";
 import type { Metadata } from "next";
@@ -32,14 +32,14 @@ export default function RootLayout({
     >
       <body>
         <Toaster />
-        {/*   <ThemeProvider
+          <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-          > */}
+          >
         {children}
-        {/*  </ThemeProvider> */}
+         </ThemeProvider>
       </body>
     </html>
   );

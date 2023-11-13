@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer(){
   return(
     <footer className="flex flex-col items-center justify-between pb-8">
@@ -6,13 +8,13 @@ export default function Footer(){
         <div className="mt-9 sm:mb-3 text-center border-t pt-8">
           <small className="text-sm font-normal leading-none">
             © 2023 Manuel Luvuvamo -{" "}
-            <a
+            <Link
               className="border-b transition-all duration-500 hover:border-gray-400 px-2 py-1"
               data-cursor="block"
               href="https://github.com/manuelluvuvamo"
             >
               MIT License
-            </a>
+            </Link>
           </small>
         </div>
         </div>

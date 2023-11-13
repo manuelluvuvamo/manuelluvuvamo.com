@@ -39,7 +39,7 @@ export default function Home() {
             aqui, alguns dos outros projectos que desenvolvi podem ser
             encontrados no meu{" "}
             <Link
-              className="text-base text-gray-700 hover:underline transition-all"
+              className="text-base text-gray-400 hover:underline transition-all"
               target="_blank"
               href={"https://github.com/manuelluvuvamo"}
             >
@@ -52,7 +52,7 @@ export default function Home() {
             Implementados
           </h2>
           
-          <div className="mt-4 flex text-center justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left flex-wrap  p-0">
+          <div className=" mt-4 flex text-center justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left flex-wrap  p-0">
             <ProjectCard
               titulo="ITEL Vagas"
               desc="Plataforma com o objectico de Disponibilizar estágios profissionais para os estudantes da instituição, para melhor preparar a sua integração no mercado de trabalho..."
@@ -67,7 +67,7 @@ export default function Home() {
 
             <ProjectCard
               titulo="Zengá"
-              desc="Plataforma que veio para melhorar a forma de como publicitamos, ajudar a controlar os estabelecimentos que estão em uma determinada área e prover uma melhor estatística..."
+              desc="Plataforma para melhorar a forma de como publicitamos, ajudar a controlar os estabelecimentos que estão em uma determinada área e prover uma melhor estatística..."
               url="https://zenga.co.ao"
             />
             <ProjectCard
@@ -92,7 +92,7 @@ export default function Home() {
 
             <ProjectCard2
               titulo="AngoGest"
-              desc="Um site experimental abordando sobre a gravidez precoce, um trabalho prático de TIC usando HTML5 e CSS3..."
+              desc="Um site experimental abordando sobre a gravidez precoce, um trabalho prático de TIC usando html5 e css3..."
               git="https://github.com/manuelluvuvamo/angogest"
               vercel="https://angogest.vercel.app/"
               tech="HTML"
@@ -100,7 +100,7 @@ export default function Home() {
 
             <ProjectCard2
               titulo="HyperColor Clone"
-              desc="Um exercício prático de clonagem do famoso site de degradês HyperColor utilizando Next.js e Tailwind Css..."
+              desc="Exercício prático de clonagem do famoso site de degradês HyperColor utilizando Next.js e Tailwind Css..."
               git="https://github.com/manuelluvuvamo/hypercolor_clone"
               vercel="https://hypercolor_clone.vercel.app/"
               tech="Typescript"
@@ -115,7 +115,7 @@ export default function Home() {
             />
              <ProjectCard2
               titulo="SGH - Gestão Hospitalar"
-              desc="Módulos de gestão de utilizadores, consultas, pacientes e acessos de um sistema para gestão Hospitalar"
+              desc="Módulos de gestão de utilizadores, consultas, pacientes e acessos de um sistema de gestão Hospitalar"
               git="https://github.com/manuelluvuvamo/SGH"
               vercel="#"
               tech="PHP | Laravel"
