@@ -7,18 +7,19 @@ import { useRouter } from "next/router";
 import { Sun } from "lucide-react";
 import { ModeToggle } from "@/components/ModeToggle";
 import Link from "next/link";
+import { ModeToggleCV } from "./ModeToggleCV";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Projectos", href: "projectos", current: false },
   { name: "Blog", href: "blog", current: false },
   { name: "Galeria", href: "galeria", current: false },
-  {
-    name: "Currículo",
-    href: "/Curriculo.pdf",
-    current: false,
-    target: "_blank",
-  },
+  // {
+  //   name: "Currículo",
+  //   href: "/Curriculo.pdf",
+  //   current: false,
+  //   target: "_blank",
+  // },
   { name: "Contacto", href: "contact", current: false },
 ];
 
@@ -61,22 +62,35 @@ export default function Navbar() {
                       >
                         {item.name}
                       </Link>
-                      
+
                     ))}
-                     <Link
-                        
-                        href="#"
-                        target=""
-                        className={classNames(
-                          
-                          "rounded-xl px-3 py-2 text-sm font-medium"
-                        )}
-                        aria-current={undefined}
-                      >
+
+                    <Link
+
+                      href="#"
+                      target=""
+                      className={classNames(
+
+                        "rounded-xl px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={undefined}
+                    >
+                      <ModeToggleCV />
+                    </Link>
+                    <Link
+
+                      href="#"
+                      target=""
+                      className={classNames(
+
+                        "rounded-xl px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={undefined}
+                    >
                       <ModeToggle />
-                      </Link>
-                        
-                     
+                    </Link>
+
+
 
                     {/*  <ModeToggle /> */}
                   </div>
@@ -105,7 +119,7 @@ export default function Navbar() {
             />
 
             {/* -ml-16 bg-gray-900 text-white opacity-0 hover:opacity-80 */}
-             {/* <div className=" w-14 h-12 rounded-xl transition-opacity">
+            {/* <div className=" w-14 h-12 rounded-xl transition-opacity">
               <ModeToggle />
             </div> */}
           </span>

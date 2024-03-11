@@ -13,7 +13,7 @@ interface Projecto {
 
 export default function ProjectCard2(props:Projecto){
   return (
-    <div className="w-full lg:w-100 lg:max-w-[261px] bg-transparent border border-gray-200 rounded-lg shadow bg-transparent transition ease-in-out delay-150 hover:border-gray-700 duration-300 m-0 group cursor-pointer mb-2 m-2">
+    <div className="w-full lg:w-100 lg:max-w-[255px] bg-transparent border border-gray-200 rounded-lg shadow bg-transparent transition ease-in-out delay-150 hover:border-gray-700 duration-300 m-0 group cursor-pointer mb-2 m-2">
     <Link target="_blank" href= {props.git}>
    {/*  <Image
     src="/4.jpeg"
