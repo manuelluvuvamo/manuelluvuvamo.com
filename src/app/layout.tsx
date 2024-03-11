@@ -4,6 +4,7 @@ import LocalFont from "next/font/local";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Toaster from "@/components/toaster";
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -39,6 +40,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         {children}
+        <Analytics />
          </ThemeProvider>
       </body>
     </html>
