@@ -51,7 +51,7 @@ export default function Navbar() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        target={item.target}
+                        // target={item.target}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
