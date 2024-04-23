@@ -7,7 +7,7 @@ export default function Footer(){
          
         <div className="mt-9 sm:mb-3 text-center border-t pt-8">
           <small className="text-sm font-normal leading-none">
-            © 2023 Manuel Luvuvamo -{" "}
+            © {new Date().getFullYear()} Manuel Luvuvamo -{" "}
             <Link
               className="border-b transition-all duration-500 hover:border-gray-400 px-2 py-1"
               data-cursor="block"
