@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Manuel Luvuvamo" src="https://manuelluvuvamo.vercel.app/img/bandeira.jpg" width="100px" />
+  <img alt="Manuel Luvuvamo" src="https://manuelluvuvamo.vercel.app/_next/image?url=%2F4.jpeg&w=128&q=75" width="100px" />
 </p>
 
 <p align="center">
