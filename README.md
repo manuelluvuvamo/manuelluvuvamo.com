@@ -7,7 +7,7 @@
   <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=ffca00&labelColor=202024" alt="License"></a>
 </p>
 
-## 💻 Projeto
+## 💻 Sobre
 
 Meu nome é Manuel António Luvuvamo, sou um apaixonado desenvolvedor fullstack, e este é meu portfólio, um projeto que reflete minha jornada e habilidades técnicas.
 
