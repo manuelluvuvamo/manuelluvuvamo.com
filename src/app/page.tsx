@@ -23,7 +23,7 @@ export default function Home() {
     <main className="min-h-screen ">
       <Navbar />
 
-      <section className="px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-20">
+      <section className="px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-20 ">
         <div className="max-w-4xl w-full container">
           <section className="flex flex-wrap  justify-center items-start">
           

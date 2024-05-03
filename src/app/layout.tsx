@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
+import { WEBSITE_HOST_URL } from '@/lib/constants'
 import LocalFont from "next/font/local";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -11,16 +12,49 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
-export const metadata: Metadata = {
-  title: "manuelluvuvamo.com",
-  description:
-    "Fullstack Laravel Developer, SQL Trainner and Founder of Quick and Safe Shopping",
-};
 
 const calSans = LocalFont({
   src: "../assets/fonts/CalSans-SemiBold.ttf",
   variable: "--font-calsans",
 });
+
+const meta = {
+  title: 'Manuel Luvuvamo',
+  description:
+    'Software Developer: Systems Integration and Extensibility | SQL Trainer | React & React Native Learner | CEO & Founder - Quick and Safe Shopping: Import, Administrative Management, Payments and Digital Services.',
+  image: `${WEBSITE_HOST_URL}/5.jpeg`,
+}
+
+export const metadata: Metadata = {
+  title: {
+    default: meta.title,
+    template: '%s | Manuel Luvuvamo',
+  },
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    url: WEBSITE_HOST_URL,
+    siteName: meta.title,
+    locale: 'en-US',
+    type: 'website',
+    images: [
+      {
+        url: meta.image,
+      },
+    ],
+  },
+  twitter: {
+    title: meta.title,
+    description: meta.description,
+    images: meta.image,
+    card: 'summary_large_image',
+  },
+  alternates: {
+    canonical: WEBSITE_HOST_URL,
+  },
+}
+
 
 export default function RootLayout({
   children,
