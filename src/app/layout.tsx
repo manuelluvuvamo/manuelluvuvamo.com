@@ -26,6 +26,7 @@ const meta = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL(WEBSITE_HOST_URL),
   title: {
     default: meta.title,
     template: '%s | Manuel Luvuvamo',
@@ -49,6 +50,7 @@ export const metadata: Metadata = {
     description: meta.description,
     images: meta.image,
     card: 'summary_large_image',
+    site: '@manuelluvuvamo',
   },
   alternates: {
     canonical: WEBSITE_HOST_URL,

@@ -7,6 +7,9 @@ import { ArrowLeftFromLine } from "lucide-react";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Info from "@/components/Info";
+import type { MDXComponents } from 'mdx/types'
+//import { useMDXComponent } from 'next-contentlayer/hooks'
+
 export async function generateStaticParams() {
   const files = fs.readdirSync(path.join("blogs"));
 
@@ -36,9 +39,9 @@ export default function Page({ params }: any) {
 
   return (
     <main className="min-h-screen ">
-      <div className="flex flex-col items-center justify-between pb-8">
+      <div className="flex flex-col items-center justify-between pb-8 ">
 
-        <div className="max-w-4xl w-full">
+        <div className="max-w-4xl w-full ">
           <div className="mt-9 sm:mb-3 text-center  pt-8">
             <Link href="/blog">
               {" "}
@@ -52,8 +55,8 @@ export default function Page({ params }: any) {
 
       <section className="mb-20 px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-20">
         <div className="max-w-4xl w-full container">
-          <article className="prose prose-sm md:prose-base lg:prose-lg prose-slate  mx-auto">
-            <h1>{props.frontMatter.title}</h1>
+          <article className="prose prose-sm md:prose-base lg:prose-lg prose-slate  mx-auto text-justify">
+            {/* <h1>{props.frontMatter.title}</h1> */}
 
             <MDXRemote source={props.content}></MDXRemote>
           </article>

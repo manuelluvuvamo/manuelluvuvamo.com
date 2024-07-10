@@ -14,10 +14,10 @@ interface Info {
 }
 export default function Info(props:Info) {
   return (
-    <div className="lg:max-w-7xl  w-full">
-      <div className="flex flex-col items-center justify-center text-center">
+    <div className="max-w-4xl  w-full container p-0">
+      <div className="flex flex-col items-center justify-center text-center  ">
         <div className="text-xs md:text-sm font-semibold">{props.date}</div>
-        <h2 className="mt-6 md:mt-10 scroll-m-20 pb-2 text-2xl md:text-4xl font-extrabold tracking-tight transition-colors first:mt-0">
+        <h2 className="mt-6 md:mt-10 scroll-m-20 pb-2 text-2xl md:text-3xl font-extrabold tracking-tight transition-colors first:mt-0 ">
         {props.title}
         </h2>
         <p className="text-sm text-muted-foreground leading-6 tracking-normal md:text-base font-semibold md:text-[14px] md:px-8 lg:px-16 xl:px-48 mt-4 md:mt-6">
