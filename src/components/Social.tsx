@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Social() {
     return (
-        <section className="px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-10 lg:pt-10">
+        <section className=" flex flex-col items-center justify-between pt-10 lg:pt-10">
             <div className="max-w-4xl w-full container">
                 <ul className="flex flex-col md:flex-row gap-3 justify-center">
                     <li data-cursor="block">

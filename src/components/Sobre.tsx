@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Sobre() {
   return (
-    <section className="px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-5 lg:pt-20">
+    <section className="flex flex-col items-center justify-between pt-5 lg:pt-20">
       <div className="max-w-4xl w-full container">
         <h2 className={`mb-6 text-lg font-normal text-left lg `}>
           hello, I{"'"}m Manuel Luvuvamo👋🏾

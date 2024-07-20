@@ -19,21 +19,29 @@ function classNames(...classes: any) {
 export default function Navbar() {
   return (
     <div className="flex flex-col items-center justify-between lg:pt-16">
-      <div className="z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm flex flex-wrap-reverse ">
-
-        <div className="flex h-28 w-full items-start lg:items-end justify-center bg-gradient-to-t from-white via-white static lg:h-auto lg:w-auto lg:bg-none">
-          <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 cursor-pointer">
-
-          <Avatar>
+      <div className="flex flex-wrap z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm flex">
+        <div className="flex w-full md:w-auto h-28 items-center lg:items-end justify-between md:justify-center bg-gradient-to-t from-white via-white static lg:h-auto lg:w-auto lg:bg-no">
+          <span className="pointer-events-none lg:pointer-events-auto lg:p-0 cursor-pointer">
+            <Avatar>
               <AvatarImage src="" />
               <AvatarFallback>ML</AvatarFallback>
             </Avatar>
-           
           </span>
+
+          <Link
+            href="#"
+            target=""
+            className={classNames(
+              "rounded-xl py-2 text-sm font-medium block md:hidden"
+            )}
+            aria-current={undefined}
+          >
+            <ModeToggle />
+          </Link>
         </div>
 
         {/* MENU */}
-        <nav className="   pb-6 pt-8  backdrop-blur-2xl  lg:w-auto  lg:rounded-xl    lg:py-4   ">
+        <nav className="   pb-6 md:pt-8  backdrop-blur-2xl  lg:w-auto  lg:rounded-xl    lg:py-4   ">
           <div className="    mx-auto max-w-7xl px-2 sm:px-6 lg:px-0">
             <div className="  relative flex h-6 items-center justify-between">
               <div className=" flex flex-1 items-center justify-center sm:items-stretch  sm:justify-start">
@@ -51,24 +59,19 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "",
+                          item.current ? "bg-gray-900 text-white" : "",
                           "rounded-xl py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </Link>
-
                     ))}
 
                     <Link
-
                       href="#"
                       target=""
                       className={classNames(
-
                         "rounded-xl py-2 text-sm font-medium"
                       )}
                       aria-current={undefined}
@@ -76,12 +79,10 @@ export default function Navbar() {
                       <ModeToggleCV />
                     </Link>
                     <Link
-
                       href="#"
                       target=""
                       className={classNames(
-
-                        "rounded-xl py-2 text-sm font-medium"
+                        "rounded-xl py-2 text-sm font-medium hidden md:block"
                       )}
                       aria-current={undefined}
                     >

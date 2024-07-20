@@ -34,7 +34,7 @@ export default function Home() {
     <main className="min-h-screen ">
       <Navbar />
 
-      <section className="mb-20 px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-20">
+      <section className="mb-20  flex flex-col items-center justify-between pt-5">
         <div className="max-w-4xl w-full container">
           <h2 className={`mb-6 text-3xl font-semibold text-left lg `}>
             Projectos
@@ -51,7 +51,7 @@ export default function Home() {
             .
           </p>
           
-          <div className=" mt-4 flex flex-col text-center justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
+          <div className=" mt-4 flex flex-col text-left justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
             <ProjectCard
               titulo="ITEL Vagas"
               desc="Platform with the aim of providing professional internships for the institution's students, to better prepare them for the job market..."
@@ -84,7 +84,7 @@ export default function Home() {
           Experiments
           </h2>
 
-          <div className="mt-4  flex flex-col text-center justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
+          <div className="mt-4  flex flex-col text-left justify-start items-center lg:max-w-4xl lg:w-full lg:mb-0 lg:text-left p-0">
             <ProjectCard
               titulo="Lista de Presença"
               desc="A React application that allows users to register their attendance at events or meetings..."

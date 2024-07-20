@@ -67,7 +67,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
 
   return (
     <main>
-      <div className="max-w-4xl  w-full container p-0 mt-12 flex flex-col gap-3">
+      <div className="max-w-4xl  w-ful mt-12 flex flex-col gap-3 container">
         <div className="flex w-full flex-row items-center justify-between">
           <Link
             href="/blog/"

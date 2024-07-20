@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sobre from "@/components/Sobre";
-import HeroSection from "@/components/HeroSection";
 import Social from "@/components/Social";
 
 /* import { ThemeProvider } from "next-themes"; */
