@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Manuel Luvuvamo" src="https://manuelluvuvamo.vercel.app/img/bandeira.jpg" width="100px" />
+  <img alt="Manuel Luvuvamo" src="https://manuelluvuvamo.vercel.app/_next/image?url=%2F4.jpeg&w=128&q=75" width="100px" />
 </p>
 
 <p align="center">
@@ -7,7 +7,9 @@
   <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=ffca00&labelColor=202024" alt="License"></a>
 </p>
 
-## 💻 Project
+
+## 💻 About
+
 
 I'm a Software developer, trainer and occasional writer with a solid experience in the creation, integration and extensibility of web applications.
 
