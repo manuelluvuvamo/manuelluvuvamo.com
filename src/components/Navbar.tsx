@@ -1,26 +1,15 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { useRouter } from "next/router";
-
-import { Sun } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ModeToggle } from "@/components/ModeToggle";
 import Link from "next/link";
 import { ModeToggleCV } from "./ModeToggleCV";
 
 const navigation = [
   { name: "home", href: "/", current: false },
-  { name: "projectos", href: "projectos", current: false },
+  { name: "projects", href: "projectos", current: false },
   { name: "blog", href: "blog", current: false },
-  { name: "galeria", href: "galeria", current: false },
-  // {
-  //   name: "Currículo",
-  //   href: "/Curriculo.pdf",
-  //   current: false,
-  //   target: "_blank",
-  // },
-  { name: "contacto", href: "contact", current: false },
+  { name: "contact", href: "contact", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -28,33 +17,18 @@ function classNames(...classes: any) {
 }
 
 export default function Navbar() {
-  /* const {theme, setTheme} = useTheme(); */
-  /* const currentTheme = theme === 'system' ? systemTheme : theme; */
   return (
     <div className="flex flex-col items-center justify-between lg:pt-16">
       <div className="z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm flex flex-wrap-reverse ">
 
-
-        {/*  dark:from-black dark:via-black  */}
         <div className="flex h-28 w-full items-start lg:items-end justify-center bg-gradient-to-t from-white via-white static lg:h-auto lg:w-auto lg:bg-none">
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 cursor-pointer">
 
-            <Image
-              src="/4.jpeg"
-              alt="Manuel Logo"
-              className=" w-12 h-12 rounded-full"
-              width={100}
-              height={100}
-              priority
-            />
-            {/* <div className="flex flex-col  text-left">
-              <span className="font-display text-base">Manuel</span>
-              <span className="font-display text-base">Luvuvamo</span>
-            </div> */}
-            {/* -ml-16 bg-gray-900 text-white opacity-0 hover:opacity-80 */}
-            {/* <div className=" w-14 h-12 rounded-xl transition-opacity">
-              <ModeToggle />
-            </div> */}
+          <Avatar>
+              <AvatarImage src="" />
+              <AvatarFallback>ML</AvatarFallback>
+            </Avatar>
+           
           </span>
         </div>
 
@@ -76,7 +50,6 @@ export default function Navbar() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        // target={item.target}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
@@ -114,8 +87,6 @@ export default function Navbar() {
                     >
                       <ModeToggle />
                     </Link>
-
-
 
                     {/*  <ModeToggle /> */}
                   </div>

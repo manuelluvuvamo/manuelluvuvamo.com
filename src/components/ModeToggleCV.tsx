@@ -24,9 +24,9 @@ export function ModeToggleCV() {
       <DropdownMenuTrigger asChild>
         <Button size="default" className={classNames(
 
-          "rounded-xl px-3 py-2 text-sm text-dark font-medium bg-transparent shadow-none border-none hover:bg-gray-700 hover:text-white"
+          "rounded-xl px-3 py-2 text-sm text-dark font-medium bg-transparent shadow-none border-none hover:bg-transparent"
         )}>
-          Currículo
+          resume
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-white dark:bg-zinc-800">

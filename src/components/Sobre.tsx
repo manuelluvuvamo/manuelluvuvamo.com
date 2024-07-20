@@ -6,17 +6,15 @@ export default function Sobre() {
     <section className="px-5 md:px-20 lg:px-56 xl:px-80 flex flex-col items-center justify-between pt-5 lg:pt-20">
       <div className="max-w-4xl w-full container">
         <h2 className={`mb-6 text-lg font-normal text-left lg `}>
-          olá, sou o Manuel Luvuvamo👋🏾
+          hello, I{"'"}m Manuel Luvuvamo👋🏾
         </h2>
         <p className="text-base text-lg  text-justify ">
-          Desenvolvedor de Software, instrutor e escritor ocasional com uma
-          sólida experiência em criação, integração e extensibilidade de aplicações web.
+          Software developer, trainer and occasional writer with a
+          solid experience in the creation, integration and extensibility of web applications.
           <br />
           <br />
-          Actualmente, frequento um curso de Licenciatura em
-          Engenharia Informática em Luanda, e dedico boa parte do
-          meu tempo à minha paixão pela programação, meus empreendimentos com
-          a{" "}
+          I{"'"}m currently studying for a degree in
+          Engineering in Luanda, and I devote much of my time to my passion for programming, my ventures at{" "}
           <Link
             className="text-base text-gray-500 hover:underline transition-all"
             target="_blank"
@@ -24,7 +22,7 @@ export default function Sobre() {
           >
             Quick and Safe Shopping
           </Link>{" "}
-          e escrita de artigos na melhor comunidade de escritores{" "}
+          and article writing in the best community of writers{" "}
           <Link
             className="text-base text-gray-500 hover:underline transition-all"
             target="_blank"
@@ -35,18 +33,18 @@ export default function Sobre() {
           .
           <br />
           <br />
-          Versões anteriores do meu portfólio tinham uma secção dedicada a imagens de alguns eventos em que participo, felizmente o portfólio do
+          Previous versions of my portfolio had a section dedicated to images of some of the events I take part in, luckily
           <Link
             href="https://euotiniel.com/"
             className="text-base text-gray-500 hover:underline transition-all font-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}Otoniel Emanuel{" "}
+            {" "}Otoniel Emanuel{" 's"}
 
-          </Link> salvou-me disso. Por ora
+          </Link> portfolio saved me from this. At the moment
           <Link
-            href="https://euotiniel.com/"
+            href="https://read.cv/manuelluvuvamo"
             className="text-base text-gray-500 hover:underline transition-all font-bold"
             target="_blank"
             rel="noopener noreferrer"
@@ -56,9 +54,9 @@ export default function Sobre() {
 
           </Link>.
           <br />
-          <br />É sempre uma honra conhecer novas pessoas e alargar cada vez
-          mais o meu networking, sinta - se a vontade para interagir comigo em
-          minhas redes sociais.
+          <br />It{"'"}s always an honor to meet new people and to broaden
+          feel free to interact with me on my social networks.
+          my social networks.
         </p>
       </div>
 

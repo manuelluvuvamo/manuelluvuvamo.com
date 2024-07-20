@@ -7,38 +7,38 @@
   <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=ffca00&labelColor=202024" alt="License"></a>
 </p>
 
-## 💻 Projeto
+## 💻 Project
 
-Meu nome é Manuel António Luvuvamo, sou um apaixonado desenvolvedor fullstack, e este é meu portfólio, um projeto que reflete minha jornada e habilidades técnicas.
+I'm a Software developer, trainer and occasional writer with a solid experience in the creation, integration and extensibility of web applications.
 
-### 🚀 Destaques
+### 🚀 Highlights
 
-- 🌐 Desenvolvimento Fullstack: Trabalho com tecnologias front-end e back-end para criar aplicações web dinâmicas e eficientes.
-- 💡 Projetos Inovadores: Explore meu portfólio para descobrir uma variedade de projetos, desde aplicações web interativas até soluções prontas para produção.
-- 🛠️ Stack Tecnológica: Utilizo ferramentas modernas e frameworks, como React.js, Node.js, MongoDB, Laravel e Mysql para desenvolver soluções robustas e escaláveis.
-- 📱 Responsividade: Comprometido em criar interfaces que oferecem uma experiência consistente em diferentes dispositivos e tamanhos de tela.
+- 🌐 Fullstack Development: I work with front-end and back-end technologies to create dynamic and efficient web applications.
+- 💡 Innovative Projects: Explore my portfolio to discover a variety of projects, from interactive web applications to production-ready solutions.
+- 🛠️ Tech Stack: I use modern tools and frameworks such as React.js, Node.js, MongoDB, Laravel, Livewire, .NET and Mysql to develop robust and scalable solutions.
+- 📱 Responsiveness: Committed to creating interfaces that offer a consistent experience across different devices and screen sizes.
 
-### 📂 Projetos Recentes
+### 📂 Latest Projects
 
 #### [Huawei Lead23](https://lead23.itel.gov.ao)
-Portal principal para candidaturas ao projecto de formação profissional nas áreas de Operações de DataCenter, HCIA Datacom e muito mais pertencente à Huawei...
+Main portal for applications to the professional training project in the areas of DataCenter Operations, HCIA Datacom and much more belonging to Huawei...
 
 #### [Smartbrace](http://smartbrace.ao)
-Sistema inovador para gerir eventos em Angola integrada com reconhecimento de pulseiras de radiofrequência, que visa melhorar a gestão de eventos...
+Innovative system for managing events in Angola integrated with radiofrequency wristband recognition, which aims to improve event management...
 
-### 🌐 [Confira Meu Portfólio Completo](https://manuelluvuvamo.vercel.app)
+### 🌐 [Check out my complete portfolio](https://manuelluvuvamo.vercel.app)
 
-Explore meu portfólio para obter mais detalhes sobre meu trabalho e para visualizar outros projetos interessantes que desenvolvi. Estou sempre aberto a novas oportunidades e colaborações emocionantes. Sinta-se à vontade para entrar em contato!
+Explore my portfolio for more details about my work and to see other interesting projects I've developed. I'm always open to new opportunities and exciting collaborations. Feel free to get in touch!
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 <p align="center">
-  Feito com 💛 by Manuel Luvuvamo
-</p>
+  Made with 💛 by Manuel Luvuvamo
+  </p>
 
 <!--START_SECTION:footer-->
 
