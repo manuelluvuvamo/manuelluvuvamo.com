@@ -5,35 +5,23 @@ interface Projecto {
   titulo: string;
   url: string;
   desc: string;
+  tech: string;
 }
 
 
 
 export default function ProjectCard(props:Projecto){
   return (
-    <div className="w-full lg:w-100 lg:max-w-[255px] bg-transparent border border-gray-200 rounded-lg shadow bg-transparent transition ease-in-out delay-150 hover:border-gray-700 duration-300 m-0 group cursor-pointer mb-2 m-2">
-    <Link target="_blank" href= {props.url}>
-   {/*  <Image
-    src="/4.jpeg"
-    alt="Manuel Logo"
-    className="rounded-t-lg h-64 w-[100%]"
-    width={500}
-    height={300}
-    priority
-  /> */}
-
-    </Link>
-    <div className="px-5 pb-5">
-      <Link target="_blank" href= {props.url} className=''>
-        <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white mt-6 ">
+    <Link target="_blank" href= {props.url}  className="w-full bg-transparent bg-transparent transition ease-in-out delay-150 duration-300 m-0 group cursor-pointer mb-2 m-2  border-b transition-all duration-500 hover:border-gray-500">
+    <div className=" pb-5">
+        <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white mt-6 ">
          {props.titulo}
         </h5>
-      </Link>
-      <div className=" mt-2.5 mb-5">
+      <div className=" mt-2.5 ">
         
        <p className='text-gray-500 dark:text-gray-300'> {props.desc}</p>
       </div>
-      <div className="flex items-center justify-end">
+      {/* <div className="flex items-center justify-end">
         
         <Link
           target="_blank" href= {props.url}
@@ -41,8 +29,8 @@ export default function ProjectCard(props:Projecto){
           >
             <Linkk className='transition ease-in-out delay-150 group-hover:text-white  hover:text-white duration-300 text-gray-500'/>
           </Link>
-      </div>
+      </div> */}
     </div>
-  </div>
+  </Link>
   )
 }

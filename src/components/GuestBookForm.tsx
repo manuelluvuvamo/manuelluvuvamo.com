@@ -25,10 +25,10 @@ export default function GuestBookForm() {
   const onSubmit = async (data: contactFormData) => {
       try {
         await axios.post('/api/contact', data)
-        toast.success('Mensagem enviada com sucesso!')
+        toast.success('Message sent successfully!')
         reset()
       } catch (error) {
-        toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente!')
+        toast.error('There was an error sending the message. Please try again!')
         console.log(error);
  
       }
@@ -40,7 +40,7 @@ export default function GuestBookForm() {
     >
       <div className="">
         <label htmlFor="nome" className="text-base font-semibold text-justify">
-          Nome:
+          Name:
         </label>
 
         <input
@@ -71,13 +71,13 @@ export default function GuestBookForm() {
           htmlFor="mensagem"
           className="text-base font-semibold text-justify"
         >
-          Mensagem:
+          Message:
         </label>
         <textarea
           spellCheck={false}
           {...register("mensagem")} 
           className="w-full  leading-relaxed placeholder:text-gray-400 focus:ring-0 p-2 mt-4 mb-4  border-gray-300 border-[1px] rounded-lg  bg-transparent transition ease-in-out delay-150 hover:border-gray-700 duration-300"
-          placeholder="Deixe sua mensagem aqui..."
+          placeholder="Leave a message here..."
         />
       </div>
 
@@ -86,7 +86,7 @@ export default function GuestBookForm() {
         className="inline-block self-end rounded-xl border px-8 py-4 transition-colors hover:border-gray-300 border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30  dark:border-neutral-700"
         disabled={isSubmitting}
       >
-        Enviar
+        Submit
       </button>
     </form>
   );
