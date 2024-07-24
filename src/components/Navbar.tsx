@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <div className="flex flex-col items-center justify-between lg:pt-16">
       <div className="flex flex-wrap z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm flex">
-        <div className="flex w-full md:w-auto h-28 items-center lg:items-end justify-between md:justify-center bg-gradient-to-t from-white via-white static lg:h-auto lg:w-auto lg:bg-no">
+        <div className="flex w-full md:w-auto h-28 items-center lg:items-end justify-between md:justify-center lg:h-auto lg:w-auto lg:bg-no ">
           <span className="pointer-events-none lg:pointer-events-auto lg:p-0 cursor-pointer">
             <Avatar>
               <AvatarImage src="" />
