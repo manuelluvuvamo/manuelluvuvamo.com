@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen ">
       <Navbar />
 
-      <section className="mb-20  flex flex-col items-center justify-between pt-5">
+      <section className="mb-20  flex flex-col items-center justify-between pt-5 lg:pt-20">
         <div className="max-w-4xl w-full container">
           <h2 className={`mb-6 text-3xl font-semibold text-left lg `}>
             Contact
