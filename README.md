@@ -49,7 +49,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE) file for more 
 
 <p align="center">
   <a href="https://manuelluvuvamo.vercel.app/" target="_blank">
-    <img align="center" src="https://manuelluvuvamo.vercel.app/banner.png" alt="banner"/>
+    <img align="center" src="https://manuelluvuvamo.vercel.app/img/banner.png" alt="banner"/>
   </a>
 </p>
 
