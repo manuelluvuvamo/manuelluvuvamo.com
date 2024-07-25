@@ -7,7 +7,7 @@ import { ModeToggleCV } from "./ModeToggleCV";
 
 const navigation = [
   { name: "home", href: "/", current: false },
-  { name: "projects", href: "projectos", current: false },
+  { name: "projects", href: "projects", current: false },
   { name: "blog", href: "blog", current: false },
   { name: "contact", href: "contact", current: false },
 ];
@@ -41,19 +41,14 @@ export default function Navbar() {
         </div>
 
         {/* MENU */}
-        <nav className="   pb-6 md:pt-8  backdrop-blur-2xl  lg:w-auto  lg:rounded-xl    lg:py-4   ">
-          <div className="    mx-auto max-w-7xl px-2 sm:px-6 lg:px-0">
-            <div className="  relative flex h-6 items-center justify-between">
-              <div className=" flex flex-1 items-center justify-center sm:items-stretch  sm:justify-start">
+        <nav className="pb-6 md:pt-8  backdrop-blur-2xl w-full  lg:w-auto lg:py-4">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-0">
+            <div className="relative flex h-6 items-center justify-between">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch  sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  {/* <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  /> */}
                 </div>
-                <div className="  sm:ml-6 sm:block ">
-                  <div className="flex justify-center items-center flex-wrap space-x-4">
+                <div className="sm:ml-6 sm:block">
+                  <div className="flex justify-center items-center flex-wrap space-x-3 md:space-x-4">
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
