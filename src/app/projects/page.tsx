@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import ProjectCard from "@/components/ProjectCard";
 
 const meta = {
-  title: 'Projectos',
+  title: 'Projects',
   description: 'Explore some of my projects',
   url: `${WEBSITE_HOST_URL}/about`,
 }
@@ -34,10 +34,10 @@ export default function Home() {
     <main className="min-h-screen ">
       <Navbar />
 
-      <section className="mb-20  flex flex-col items-center justify-between pt-5">
+      <section className="mb-20  flex flex-col items-center justify-between pt-5 lg:pt-20">
         <div className="max-w-4xl w-full container">
           <h2 className={`mb-6 text-3xl font-semibold text-left lg `}>
-            Projectos
+            Projects
           </h2>
           <p className="text-base text-lg text-justify ">
           During my career as a Fullstack Developer, I have developed and participated as a collaborator in many projects. If you{"'"}re reading this, my current projects are probably private or not. In addition to those highlighted here, some of the other projects I{"'"}ve developed can be found on my{" "}
