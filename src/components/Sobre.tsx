@@ -1,20 +1,19 @@
-import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import i18next from "i18next";
 import Link from "next/link";
+
 
 export default function Sobre() {
   return (
     <section className="flex flex-col items-center justify-between pt-5 lg:pt-20">
       <div className="max-w-4xl w-full container">
         <h2 className={`mb-6 text-lg font-normal text-left lg `}>
-          hello, I{"'"}m Manuel Luvuvamo👋🏾
+          {i18next.t("hello")}
         </h2>
         <p className="text-base text-lg  text-justify ">
-          Software developer, trainer and occasional writer with a
-          solid experience in the creation, integration and extensibility of web applications.
+          {i18next.t("p1")}
           <br />
           <br />
-          I{"'"}m currently studying for a degree in
-          Engineering in Luanda, and I devote much of my time to my passion for programming, my ventures at{" "}
+          {i18next.t("p2")}{" "}
           <Link
             className="text-base text-gray-500 hover:underline transition-all"
             target="_blank"
@@ -22,7 +21,7 @@ export default function Sobre() {
           >
             Quick and Safe Shopping
           </Link>{" "}
-          and article writing in the best community of writers{" "}
+         {i18next.t('p3')}{" "}
           <Link
             className="text-base text-gray-500 hover:underline transition-all"
             target="_blank"
@@ -33,16 +32,16 @@ export default function Sobre() {
           .
           <br />
           <br />
-          Previous versions of my portfolio had a section dedicated to images of some of the events I take part in, luckily
+          {i18next.t('p4')}
           <Link
             href="https://euotiniel.com/"
             className="text-base text-gray-500 hover:underline transition-all font-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}Otoniel Emanuel{" 's"}
+            {" "}{i18next.t('otiniel')}
 
-          </Link> portfolio saved me from this. At the moment
+          </Link> {i18next.t('p5')}
           <Link
             href="https://read.cv/manuelluvuvamo"
             className="text-base text-gray-500 hover:underline transition-all font-bold"
@@ -54,13 +53,11 @@ export default function Sobre() {
 
           </Link>.
           <br />
-          <br />It{"'"}s always an honor to meet new people and to broaden
-          feel free to interact with me on my social networks.
-          my social networks.
+          <br />{i18next.t('p6')}
         </p>
       </div>
 
-    
+
     </section>
   )
 }

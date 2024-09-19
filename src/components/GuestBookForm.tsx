@@ -8,6 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 /* import { Button } from "./ui/button"; */
 import toast from "react-hot-toast";
+import i18next from "i18next";
 
 const contactFormSchema = z.object({
   nome: z.string().min(3).max(100),
@@ -25,10 +26,10 @@ export default function GuestBookForm() {
   const onSubmit = async (data: contactFormData) => {
       try {
         await axios.post('/api/contact', data)
-        toast.success('Message sent successfully!')
+        toast.success(i18next.t("contact_form_success"))
         reset()
       } catch (error) {
-        toast.error('There was an error sending the message. Please try again!')
+        toast.error(i18next.t("contact_form_error"))
         console.log(error);
  
       }
@@ -40,7 +41,7 @@ export default function GuestBookForm() {
     >
       <div className="">
         <label htmlFor="nome" className="text-base font-semibold text-justify">
-          Name:
+        {i18next.t("name_form")}:
         </label>
 
         <input
@@ -71,13 +72,13 @@ export default function GuestBookForm() {
           htmlFor="mensagem"
           className="text-base font-semibold text-justify"
         >
-          Message:
+          {i18next.t("message_form")}:
         </label>
         <textarea
           spellCheck={false}
           {...register("mensagem")} 
           className="w-full  leading-relaxed placeholder:text-gray-400 focus:ring-0 p-2 mt-4 mb-4  border-gray-300 border-[1px] rounded-lg  bg-transparent transition ease-in-out delay-150 hover:border-gray-700 duration-300"
-          placeholder="Leave a message here..."
+          placeholder={i18next.t("message_placeholder")}
         />
       </div>
 
@@ -86,7 +87,7 @@ export default function GuestBookForm() {
         className="inline-block self-end rounded-xl border px-8 py-4 transition-colors hover:border-gray-300 border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30  dark:border-neutral-700"
         disabled={isSubmitting}
       >
-        Submit
+        {i18next.t("submit_form")}
       </button>
     </form>
   );
