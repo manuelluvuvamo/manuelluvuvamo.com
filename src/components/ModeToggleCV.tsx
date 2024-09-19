@@ -1,9 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons"
-
-
+import i18next from "i18next";
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -11,7 +9,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import Link from "next/link"
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -24,9 +21,9 @@ export function ModeToggleCV() {
       <DropdownMenuTrigger asChild>
         <Button size="default" className={classNames(
 
-          "rounded-xl px-3 py-2 text-sm text-dark font-medium bg-transparent shadow-none border-none hover:bg-transparent"
+          "rounded-xl px-0 py-2 text-sm text-dark font-medium bg-transparent shadow-none border-none hover:bg-transparent"
         )}>
-          resume
+          {i18next.t("cv")}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-white dark:bg-zinc-800">
