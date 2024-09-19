@@ -1,15 +1,16 @@
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ModeToggle } from "@/components/ModeToggle";
 import Link from "next/link";
 import { ModeToggleCV } from "./ModeToggleCV";
+import i18next from "i18next";
+import "@/locales/index"
 
 const navigation = [
   { name: "home", href: "/", current: false },
-  { name: "projects", href: "projects", current: false },
+  { name: "proj", href: "projects", current: false },
   { name: "blog", href: "blog", current: false },
-  { name: "contact", href: "contact", current: false },
+  { name: i18next.t('contact'), href: "contact", current: false },
 ];
 
 function classNames(...classes: any) {

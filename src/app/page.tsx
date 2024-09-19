@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sobre from "@/components/Sobre";
 import Social from "@/components/Social";
-
+import "@/locales/index"
 /* import { ThemeProvider } from "next-themes"; */
 
 export default function Home() {

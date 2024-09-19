@@ -1,11 +1,12 @@
+import i18next from "i18next";
 import { File, Github, GithubIcon, Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 
 export default function Social() {
     return (
-        <section className=" flex flex-col items-center justify-between pt-10 lg:pt-10">
+        <section className=" flex flex-col items-center  justify-between pt-10 lg:pt-10">
             <div className="max-w-4xl w-full container">
-                <ul className="flex flex-col md:flex-row gap-3 justify-center">
+                <ul className="flex flex-col md:flex-row gap-3 justify-start">
                     <li data-cursor="block">
                         <span
 
@@ -13,7 +14,7 @@ export default function Social() {
 
                         >
                             <File size="16" />
-                            <span className="ml-1">resume:</span>
+                            <span className="ml-1">{i18next.t("cv")}:</span>
                             <a href="/CV - Europass - PT - Manuel Luvuvamo.pdf" download className="ml-1">PT</a>
                             <a href="/CV - Europass - EN - Manuel Luvuvamo.pdf" download className="ml-1">EN</a>
                         </span>
