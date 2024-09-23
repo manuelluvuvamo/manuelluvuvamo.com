@@ -80,7 +80,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
         </div>
         <div className="mt-10 flex flex-col">
           <time className="text-gray-500 text-xs mt-10 italic" dateTime={post.date}>
-            {format(parseISO(post.date), "LLLL d, yyyy")}
+            {post.data}
           </time>
           <h2 className="scroll-m-20 pb-2 text-2xl md:text-3xl font-extrabold tracking-tight transition-colors first:mt-0 ">
             {post.title}

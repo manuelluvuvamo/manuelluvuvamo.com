@@ -74,4 +74,8 @@
     @apply bg-background text-foreground;
     @apply dark:bg-gray-950
   }
+  
+  pre {
+    overflow-x: auto;
+  }
 }
