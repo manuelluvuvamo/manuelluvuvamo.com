@@ -2,7 +2,7 @@ import Link from "@/components/links"
 
 export default function Footer() {
   return (
-    <footer className="max-w-4xl w-full container flex flex-col md:flex-row sm:flex-col items-center justify-start my-8 md:my-14">
+    <footer className="max-w-4xl w-full container flex flex-row items-center justify-start my-8 md:my-14">
       <div className="mt-9 sm:mb-3">
         <small className="text-sm font-normal leading-none">
         {new Date().getFullYear()} &copy;{" "}
