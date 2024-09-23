@@ -20,7 +20,7 @@ function classNames(...classes: any) {
 export default function Navbar() {
   return (
     <div className="flex flex-col items-center justify-between lg:pt-16">
-      <div className="flex flex-wrap z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm flex">
+      <div className="flex flex-wrap z-10 max-w-4xl w-full container items-center justify-between font-mono text-sm">
         <div className="flex w-full md:w-auto h-28 items-center lg:items-end justify-between md:justify-center lg:h-auto lg:w-auto lg:bg-no ">
           <span className="pointer-events-none lg:pointer-events-auto lg:p-0 cursor-pointer">
             <Avatar>
@@ -43,9 +43,9 @@ export default function Navbar() {
 
         {/* MENU */}
         <nav className="pb-6 md:pt-8  backdrop-blur-2xl w-full  lg:w-auto lg:py-4">
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-0">
+          <div className="mx-auto max-w-7xl lg:px-0">
             <div className="relative flex h-6 items-center justify-between">
-              <div className="flex flex-1 items-center justify-center sm:items-stretch  sm:justify-start">
+              <div className="flex flex-1 items-center">
                 <div className="flex flex-shrink-0 items-center">
                 </div>
                 <div className="sm:ml-6 sm:block">
@@ -56,7 +56,7 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current ? "bg-gray-900 text-white" : "",
-                          "rounded-xl py-2 text-sm font-medium"
+                          "rounded-xl py-2 text-base"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -68,7 +68,7 @@ export default function Navbar() {
                       href="#"
                       target=""
                       className={classNames(
-                        "rounded-xl py-2 text-sm font-medium"
+                        "rounded-xl py-2 text-base"
                       )}
                       aria-current={undefined}
                     >
