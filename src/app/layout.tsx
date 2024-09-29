@@ -71,7 +71,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <Head>
-        <link rel="icon" href="/favicon.ico" /> {/* Adicione esta linha */}
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="DUZpFdCx-Ttq5-aHB7Z2hnDYvBLaegLqM2Bw4YOMnA4" />
       </Head>
 
       <body>
