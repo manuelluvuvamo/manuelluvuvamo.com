@@ -70,10 +70,9 @@ export default function RootLayout({
       className={[inter.variable, calSans.variable].join(" ")}
       suppressHydrationWarning
     >
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
+      <head>
         <meta name="google-site-verification" content="DUZpFdCx-Ttq5-aHB7Z2hnDYvBLaegLqM2Bw4YOMnA4" />
-      </Head>
+      </head>
 
       <body>
         <Toaster />
