@@ -7,6 +7,7 @@ import { Inter } from "next/font/google";
 import Toaster from "@/components/toaster";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -69,6 +70,10 @@ export default function RootLayout({
       className={[inter.variable, calSans.variable].join(" ")}
       suppressHydrationWarning
     >
+      <Head>
+        <link rel="icon" href="/favicon.ico" /> {/* Adicione esta linha */}
+      </Head>
+
       <body>
         <Toaster />
         <ThemeProvider
