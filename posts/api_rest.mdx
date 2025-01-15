@@ -1,0 +1,140 @@
+---
+title: "Engenharia de Software: API & REST"
+
+description: "Explorando conceitos e boas práticas para APIs e REST."
+
+date: January 15, 2025
+data: 15 de Janeiro de 2025
+---
+
+<span className="text-justify">
+Da série de estudos sobre desenvolvimento de software, hoje é dia de falar sobre dois elementos muito conhecidos actualmente: API e REST, este texto tem como objetivo abordar alguns conceitos e tópicos relevantes sobre cada um deles.
+</span>
+<br/><br/>
+
+### <span className="text-xl"> <b>API (Application Programming Interface)</b> </span>
+<br/>
+
+<span className="text-justify">
+Em português, **Interface de Programação de Aplicações**, é um conjunto de rotinas e padrões estabelecidos por um software para que suas funcionalidades possam ser utilizadas por aplicações externas sem que estas precisem conhecer detalhes da implementação do software. Geralmente são criadas rotas que ficam expostas e recebem requisições HTTP com o objetivo de retornar dados num determinado padrão, sem esquecer a segurança com autenticação e autorização.
+</span>
+<br/>
+
+#### <u>Vejamos um exemplo com actividades da vida real em que temos as seguintes personagens</u>
+<br/>
+
+<span className="text-justify">
+1.A **Maria** (utilizador) vai à cafetaria e diz ao **João** (API) que quer um hambúrguer com as suas preferências (método e parâmetros);<br/>
+2.O **João** (API) passa o pedido ao **Pedro** (a aplicação por detrás da API) para preparar o hambúrguer (pedido);<br/>
+3.O **Pedro** prepara o hambúrguer e devolve-o ao **João** (resposta);<br/>
+4.O **João** entrega o hambúrguer pronto à **Maria** (resposta).<br/>
+</span>
+<br/>
+#### <u>Tipos de API Comuns</u>
+<br/>
+
+-**API Web**: as que os devs criam para serem consumidas por outras aplicações na Internet;<br/>
+<div className="flex flex-col items-center justify-center">
+<Image
+  src="/img/APIWeb.png"
+  alt="Rota de API web Laravel"
+  width={1000}
+  height={60}
+/>
+</div>
+<br/>
+<span className="text-justify">
+-**API de código fonte**: as que as linguagens de programação ou frameworks fornecem, por exemplo, a API de datas, linguagens como Javascript, PHP, C# e outras fornecem um conjunto de mecanismos para aceder e manipular datas.
+</span>
+<br/>
+<div className="flex flex-col items-center justify-center">
+<Image
+  src="/img/APIData.png"
+  alt="API de Datas do Javascript"
+  width={500}
+  height={60}
+/>
+</div>
+<br/><br/>
+### <span className="text-xl"> <b>REST (Representational State Transfer)</b> </span>
+<br/>
+
+<span className="text-justify">
+**Transferência Representacional de Estado**, é um modelo de arquitetura apresentado na tese de doutoramento de <a href="https://en.wikipedia.org/wiki/Roy_Fielding" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">Roy Fielding </a> na decada de 2000 que fornece directrizes para que os sistemas distribuidos comuniquem directamente utilizando  os princípios e protocolos da Web existentes, sem necessidade <a href="https://pt.wikipedia.org/wiki/SOAP" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">SOAP</a> de qualquer outro protocolo sofisticado.
+<br/>
+Existe um princípio no REST chamado STATELESSNESS, em que o servidor não precisa de saber em que estado se encontra o cliente e vice-versa. 
+<br/>
+O REST requer que um cliente efectue uma requisição ao servidor para enviar ou modificar dados. Uma requisição consiste em:
+</span>
+<br/>
+
+#### <u>Estrutura de uma Requisição REST</u>
+<br/>
+<span className="text-justify">
+-**Um verbo ou método HTTP**, que define que tipo de operação o servidor vai realizar;<br/>
+-**Um header**, com o cabeçalho da requisição que fornece informações sobre a requisição;<br/>
+-**Um path (caminho ou rota)** para o servidor, ex.: <a href="https://manuelluvuvamo.vercel.app/blog/programador_zero" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://manuelluvuvamo.vercel.app/blog/programador_zero</a>;<br/>
+-**Informação no corpo da requisição**, sendo esta informação opcional.
+</span>
+
+<br/>
+#### <u>Métodos HTTP mais utilizados</u>
+<br/>
+<span className="text-justify">
+-**GET**: é geralmente usado para solicitar que um servidor envie um recurso ou informação;<br/>
+-**POST**: é frequentemente utilizado para suportar formulários HTML, ou seja, envia dados de entrada para o servidor;<br/>
+-**PUT**: edita e actualiza documentos num servidor;<br/>
+-**DELETE**: elimina um determinado dado ou coleção do servidor.
+</span>
+<br/>
+<br/>
+
+### <span className="text-xl"> <b>APIs REST: Boas Práticas</b> </span>
+<br/>
+<span className="text-justify">
+Finalmente, as API REST, nesta parte gostaria de fazer algumas recomendações relacionadas com os endpoints (os URL's) que serão disponibilizados:
+</span>
+<br/>
+#### 1.Usar pronomes em vez de verbos, e não misturar plural e singular:
+<br/>
+```php 
+   /getAllBooks ❌
+   /createNewBook ❌
+   /books ✅
+   /categories ✅
+```
+
+<br/>
+#### 2.Utilizar sub-recursos, ou seja, as relações existentes devem ser claramente indicadas no URL:
+<br/>
+```php
+   GET /books/authors/100 ❌
+   GET /books/100/authors ✅ (retorna os autores do livro 100)
+   GET /books/100/authors/1 ✅ (retorna o autor 1 do livro 100)
+```
+<br/>
+<span className="text-justify">
+#### 3.Não igonrar os cabeçalhos HTTP, há informações que devem ser transmitidas através deles:
+<br/>
+- **Content-Type**: Indica qual o tipo de mídia de um recurso
+- **Accept**: anuncia quais os tipos de conteúdo, expressos como MIME types, que o cliente é capaz de compreender, normalmente JSON
+- **Authorization**: contém as credenciais para autenticar o agente do utilizador com o servidor
+- etc...
+</span>
+<br/>
+#### 4.Versionamento da API
+<br/>
+Versionar uma API é essencial tanto para os criadores quanto para os consumidores. Por exemplo:
+<br/>
+- <a href="https://www.api.bookstore-manuelluvuvamo.com/v1/books" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://www.api.bookstore-manuelluvuvamo.com/v1/books</a>
+- <a href="https://www.api.bookstore-manuelluvuvamo.com/v2/books" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://www.api.bookstore-manuelluvuvamo.com/v2/books</a>
+<br/>
+<span className="text-justify">
+Manter versões anteriores ativas por um período de transição permite que consumidores atualizem seus sistemas sem interrupções.
+</span>
+<br/><br/>
+Sem esquecer façam testes, automatizados de preferência, seja eles unitários ou de integração.😅🐞
+
+---
+<br/>
+Obrigado por ler até aqui! Curta, compartilhe e deixe sua opinião <a href="https://manuelluvuvamo.vercel.app/contact" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">Aqui!</a> 💻🚀
