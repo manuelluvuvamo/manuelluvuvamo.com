@@ -27,10 +27,10 @@ export function ModeToggleCV() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-white dark:bg-zinc-800">
-        <DropdownMenuItem onClick={() => window.open('/CV - Manuel Luvuvamo - Desenvolvedor de Software.pdf', '_blank')} className="cursor-pointer">
+        <DropdownMenuItem onClick={() => window.open('/CV - Manuel Luvuvamo - Desenvolvedor de Software 2025.pdf', '_blank')} className="cursor-pointer">
           Português
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => window.open('/CV - Manuel Luvuvamo -Software Developer.pdf', '_blank')} className="cursor-pointer">
+        <DropdownMenuItem onClick={() => window.open('/CV - Manuel Luvuvamo - Software Developer 2025.pdf', '_blank')} className="cursor-pointer">
           English
         </DropdownMenuItem>
 
