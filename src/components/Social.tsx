@@ -15,8 +15,8 @@ export default function Social() {
                         >
                             <File size="16" />
                             <span className="ml-1">{i18next.t("cv")}:</span>
-                            <a href="/CV - Manuel Luvuvamo - Desenvolvedor de Software.pdf" download className="ml-1">PT</a>
-                            <a href="/CV - Manuel Luvuvamo -Software Developer.pdf" download className="ml-1">EN</a>
+                            <a href="/CV - Manuel Luvuvamo - Desenvolvedor de Software 2025.pdf" download className="ml-1">PT</a>
+                            <a href="/CV - Manuel Luvuvamo - Software Developer 2025.pdf" download className="ml-1">EN</a>
                         </span>
                     </li>
                     <li data-cursor="block">
