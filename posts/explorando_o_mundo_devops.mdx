@@ -1,0 +1,167 @@
+---
+title: "DevOps: o que precisa de saber para se tornar um profissional de elite"
+
+description: ""
+
+date: March 03, 2025
+data: 03 de Março de 2025
+---
+
+<span className="text-justify">
+Muitos de vós já devem ter ouvido falar de “DevOps”, a primeira vez que ouvi foi em 2019, quando era apenas um mero iniciante no mundo da programação. Neste artigo vou abordar o que é DevOps, as práticas DevOps e algumas das ferramentas utilizadas.
+<br/>
+<b>DevOps</b> vem da combinação das palavras Development (desenvolvimento) e Operations (operações) e começou a surgir entre 2007 e 2008. Um dos principais responsáveis por cunhar o termo <b>“DevOps”</b> foi <b>Patrick Debois</b>, um consultor de TI belga, durante uma série de conferências <b>DevOpsDays</b> em 2009.
+<br/>
+DevOps não é um cargo, uma função ou uma tecnologia, mas uma cultura, talvez um movimento, que consiste na colaboração direta e eficiente entre a equipa de desenvolvimento e a equipa de operações. A ideia é que os engenheiros trabalhem em todo o ciclo de vida do software, desde o desenvolvimento e os testes até à implementação e às operações. De um modo geral, não se limitam a uma única função, são <b>full cycle</b>.
+<br/>
+DevOps é a disciplina responsável por cuidar de todo o processo de entrega e monitoramento de software em ambientes de produção e envolve várias práticas, tais como:
+<br/>
+-&nbsp;Infraestrutura como Código - IaC
+
+-&nbsp;Integração e Entrega Contínua - CI/CD
+
+-&nbsp;Monitoramento e análise
+</span>
+<br/><br/>
+
+### <span className="text-xl"> <b>INFRAESTRUTURA COMO CÓDIGO - IaC</b> </span>
+<br/>
+
+<span className="text-justify">
+Trata-se de uma prática essencial que permite automatizar a configuração de servidores e ambientes da mesma forma que o código de software.  Os desenvolvedores têm de configurar, atualizar e manter regularmente a infraestrutura para desenvolver, testar e implementar aplicações. Imagine ter de se preocupar com os servidores e as extensões que tem de instalar no seu PC quando vai trabalhar num projecto? Já seria aborrecido, agora imagine ter de fazer isso em cada novo ambiente de produção ou de homologação? Então o IaC resolve isso.
+<br/>
+Uma das vantagens do IaC é a facilidade com que os ambientes podem ser duplicados. Com a IaC, é muito mais fácil replicar ambientes e colocar uma aplicação em produção de forma rápida e segura. Imagine abrir uma filial e necessitar que todos os sistemas estejam a funcionar mais rapidamente do que a velocidade da luz, não é nada perto, mas é suficientemente eficiente.
+</span>
+<br/>
+<br/>
+
+### <span className="text-xl"> <b>INTEGRAÇÃO E ENTREGA CONTÍNUA - CI/CD </b> </span>
+<br/>
+
+<span className="text-justify">
+A Integração Contínua visa resolver o problema dos atrasos na integração das actualizações feitas pela equipa de desenvolvimento no repositório central e depois noutros ambientes. Geralmente, as equipas de desenvolvimento utilizam estratégias de ramificação (o Git Flow é uma das mais utilizadas) para integrar e testar constantemente o código, pelo que a Integração Contínua consiste em:
+<br/>
+-&nbsp;Os desenvolvedores integram o código num repositório compartilhado várias vezes ao dia
+
+-&nbsp;Criar commits simples, lançáveis e orientados para as tarefas
+
+-&nbsp;Branches de curta duração para merges mais simples
+
+-&nbsp;Acordar estratégias com a equipa
+
+-&nbsp;Implementar testes automatizados
+
+-&nbsp;Builds automatizados
+<br/>
+A Entrega Contínua, por sua vez, garante que estas alterações constantemente integradas estão prontas para entrar em produção de forma rápida e segura.
+<br/>
+No entanto, CI e CD estão diretamente relacionados com pipelines de construção de software. Um pipeline nada mais é do que um conjunto de instruções, passos, scripts, etapas que devem ser executadas sequencialmente, representando operações manuais, desde instalar dependências, construir, iniciar e assim por diante.
+<br/>
+A CI/CD não se trata apenas de criar pipelines de automatização. Envolve práticas culturais e organizacionais para acelerar a entrega contínua de software. Além disso, CI (Integração Contínua) e CD (Entrega Contínua / Implantação Contínua) podem ser processos separados, dependendo do nível de automação desejado.
+</span>
+<br/>
+<div className="flex flex-col items-center justify-center">
+<Image
+  src="/img/gitflow.png"
+  alt="Git Flow"
+  width={1000}
+  height={60}
+/>
+</div>
+<br/>
+<br/>
+
+### <span className="text-xl"> <b>MONITORAMENTO E OBSERVABILIDADE </b> </span>
+<br/>
+
+<span className="text-justify">
+O monitoramento e a observabilidade são dois processos distintos orientados por dados. Podem ser utilizados para manter e gerir com êxito a integridade e o desempenho de arquitecturas de microsserviços distribuídos e da sua infraestrutura.
+<br/>
+O monitoramento é o processo de recolha de dados e geração de relatórios sobre diferentes métricas que definem a integridade do sistema. A observabilidade é uma abordagem mais investigativa. Analisa de perto as interações dos componentes do sistema distribuído e os dados recolhidos pelo monitoramento para encontrar a causa principal dos problemas. Inclui actividades como a análise de rastreio, um processo que segue o percurso de um pedido no sistema para identificar falhas na integração. O monitoramento recolhe dados sobre componentes individuais e a observabilidade analisa o sistema distribuído como um todo.
+<br/>
+Por outras palavras, o monitoramento diz-lhe quando algo está errado porque é um processo reativo, e a observabilidade vai atrás das causas da falha porque é um processo de investigação.
+<br/>
+A observabilidade é muito importante porque permite que os problemas sejam identificados mesmo antes de causarem períodos de inatividade ou problemas graves nos sistemas. A observabilidade é um conceito mais amplo do que a simples análise dos dados de monitoramento.  A observabilidade depende de três pilares principais: logs, métricas e traces, que ajudam a compreender o estado interno do sistema sem ter de o modificar.
+</span>
+<br/>
+<br/>
+### <span className="text-xl"> <b>FERRAMENTAS COMUMENTE UTILIZADAS</b> </span>
+<br/>
+<span className="text-justify">
+Como o DevOps se reflecte na colaboração entre equipas, subdivide-se em várias fases ou partes (criando um fluxo infinito), nesta ordem de ideias cada uma delas tem um conjunto diversificado de ferramentas e plataformas, algumas delas são:
+<br/>
+</span>
+
+<div className="flex flex-col items-center justify-center">
+<Image
+  src="/img/ferramentas.png"
+  alt="ferramentas de DevOps"
+  width={1000}
+  height={60}
+/>
+</div>
+
+<br/>
+<br/>
+### <span className="text-xl"> <b>BENEFÍCIOS DO DEVOPS</b> </span>
+<br/>
+<span className="text-justify">
+-&nbsp;Acelera e optimiza o ciclo de vida do desenvolvimento de software
+
+-&nbsp;Facilita a integração contínua (CI) e a entrega contínua (CD)
+
+-&nbsp;Permite que os problemas sejam corrigidos em tempo real
+
+-&nbsp;Reduz o risco de erro humano
+
+-&nbsp;Reduz o risco de bugs e problemas no software de produção
+
+</span>
+
+
+<br/>
+<br/>
+### <span className="text-xl"> <b>PRINCÍPIOS DA CULTURA DEVOPS</b> </span>
+<br/>
+<span className="text-justify">
+-&nbsp;Colaboração entre equipas
+
+-&nbsp;Visibilidade
+
+-&nbsp;Feedback rápido
+
+-&nbsp;Responsabilidade partilhada
+
+-&nbsp;Automatização de processos
+
+-&nbsp;Ciclos de lançamento mais curtos
+
+-&nbsp;Melhoria e aprendizagem contínuas
+<br/>
+Não existe mais aquela discussão entre o dev e o operacional porque o homem das operações está preocupado em manter a estabilidade demais e o dev só quer lançar uma nova feature. Fazer deploy não é mais uma dor de cabeça terrível que deve ser feita apenas na sexta-feira no final do dia.
+
+</span>
+
+<br/>
+<br/>
+### <span className="text-xl"> <b>CONCLUSÃO</b> </span>
+<br/>
+<span className="text-justify">
+Bem, não é um adeus, ainda vou falar sobre este tema nos próximos dias, focando em algumas ferramentas específicas, o mercado e as suas oportunidades de carreira, também vou fazer um estudo de pesquisa para Engenheiros DevOps e não só em Angola.
+<br/>
+Agora, para concluir realmente, DevOps é uma cultura que visa garantir facilidade e segurança não só na entrega de software para diferentes ambientes mas também na pós-implantação e desenvolvimento através de equipas colaborativas com responsabilidade partilhada.
+</span>
+
+<br/>
+<br/>
+#### <u>Fontes</u>
+<br/>
+-&nbsp;<a href="https://www.alura.com.br/artigos/o-que-e-devops" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://www.alura.com.br/artigos/o-que-e-devops</a><br/>
+-&nbsp;<a href="https://www.alura.com.br/formacao-engenharia-software" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://www.alura.com.br/formacao-engenharia-software</a><br/>
+-&nbsp;<a href="https://aws.amazon.com/pt/what-is/iac/" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://aws.amazon.com/pt/what-is/iac/</a><br/>
+-&nbsp;<a href="https://roadmap.sh/devops/vs-developer" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">https://roadmap.sh/devops/vs-developer</a>
+<br/>
+
+---
+<br/>
+Obrigado por ler até aqui! Curta, compartilhe e deixe sua opinião <a href="https://manuelluvuvamo.vercel.app/contact" className="border-b transition-all text-gray-500 duration-500 hover:border-gray-500" target="_blank">Aqui!</a> 💻🚀
