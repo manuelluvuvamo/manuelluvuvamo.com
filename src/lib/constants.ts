@@ -1,1 +1,2 @@
-export const WEBSITE_HOST_URL = 'http://manuelluvuvamo.vercel.app/'
+export const WEBSITE_HOST_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://manuelluvuvamo.vercel.app";
