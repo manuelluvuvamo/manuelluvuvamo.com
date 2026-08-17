@@ -1,85 +1,139 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    /* Neutro quente, quase papel. Um unico acento, usado com parcimonia. */
+    --background: 40 20% 99%;
+    --foreground: 24 10% 10%;
+
+    --muted: 30 10% 96%;
+    --muted-foreground: 25 6% 45%;
+    --subtle: 25 6% 58%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
- 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
- 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
- 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
- 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
- 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
- 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --card-foreground: 24 10% 10%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
- 
+    --accent: 22 85% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 8% 89%;
+    --input: 30 8% 89%;
+    --ring: 22 85% 45%;
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
- 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
- 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
- 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
- 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
- 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
- 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
- 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
- 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --background: 24 8% 7%;
+    --foreground: 40 12% 92%;
+
+    --muted: 24 6% 13%;
+    --muted-foreground: 30 6% 62%;
+    --subtle: 30 5% 48%;
+
+    --card: 24 7% 10%;
+    --card-foreground: 40 12% 92%;
+
+    --accent: 25 88% 58%;
+    --accent-foreground: 24 20% 8%;
+
+    --destructive: 0 62% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 24 6% 18%;
+    --input: 24 6% 18%;
+    --ring: 25 88% 58%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
-    @apply dark:bg-gray-950
-  }
-  
-  pre {
-    overflow-x: auto;
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
-    transition: background-color 0.8s ease, color 0.8s ease!important;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
+
+  ::selection {
+    @apply bg-accent/20;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  /* Coluna de leitura usada em todas as paginas. */
+  .shell {
+    @apply mx-auto w-full max-w-shell px-6;
+  }
+
+  /* Etiqueta pequena que abre cada seccao. */
+  .eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-[0.16em] text-subtle;
+  }
+
+  /* Ligacao de texto com sublinhado que cresce ao passar o rato. */
+  .link {
+    @apply relative text-foreground decoration-border underline-offset-4 transition-colors hover:text-accent;
+  }
+
+  .link-muted {
+    @apply text-muted-foreground transition-colors hover:text-foreground;
+  }
+
+  /* Linha de lista: um bloco que se acende ao passar o rato. */
+  .row {
+    @apply -mx-4 block rounded-lg px-4 py-4 transition-colors hover:bg-muted;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Blocos de codigo produzidos pelo rehype-pretty-code. */
+[data-rehype-pretty-code-fragment] pre {
+  @apply overflow-x-auto rounded-lg border border-border bg-[#282c34] py-4 text-[13px] leading-relaxed;
+}
+
+[data-rehype-pretty-code-fragment] code {
+  @apply grid bg-transparent p-0 text-inherit;
+  counter-reset: line;
+}
+
+[data-rehype-pretty-code-fragment] code > .line {
+  @apply px-4;
+}
+
+[data-rehype-pretty-code-fragment] .line--highlighted {
+  @apply bg-white/10;
+}
+
+[data-rehype-pretty-code-title] {
+  @apply rounded-t-lg border border-b-0 border-border bg-muted px-4 py-2 text-xs font-medium text-muted-foreground;
+}
+
+[data-rehype-pretty-code-title] + pre {
+  @apply mt-0 rounded-t-none;
+}
+
+/* Ancoras geradas pelo rehype-slug nos titulos dos artigos. */
+.prose :where(h2, h3, h4) {
+  scroll-margin-top: 6rem;
 }

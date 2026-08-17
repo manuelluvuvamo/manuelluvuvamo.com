@@ -1,0 +1,768 @@
+{
+  "profile": {
+    "key": "default",
+    "fullName": "Manuel Luvuvamo",
+    "headline": "Desenvolvedor de software, Mentor Tech, Criador de soluções",
+    "headlineEn": "Software developer, Tech Mentor, Solution creator",
+    "shortBio": "Sou desenvolvedor de software e líder técnico na Kinsari, em Luanda. Desenho, construo e mantenho sistemas — com atenção particular à integração entre plataformas e à arquitectura que os aguenta a longo prazo.",
+    "shortBioEn": "I am a software developer and tech lead at Kinsari, in Luanda. I design, build and maintain systems — with particular attention to integration between platforms and to the architecture that holds them up over time.",
+    "longBio": "Comecei no ITEL, onde passei dois anos a construir portais e plataformas para o sector público angolano: ambientes de ensino à distância, sistemas de gestão escolar, portais de candidatura. Aprendi ali uma coisa que ainda me orienta — software que serve muita gente tem de ser simples de operar e chato de partir.\n\nHoje sou líder técnico na Kinsari, onde tomo decisões de arquitectura, faço revisão de código e sirvo de ponte entre quem escreve o código e quem precisa do resultado. Trabalho sobretudo em PHP/Laravel, JavaScript/Node e Next.js, com Docker e CI/CD à volta.\n\nFora do trabalho, mentoro programadores angolanos e escrevo sobre desenvolvimento de software. É a parte de que mais gosto: em Angola não falta vontade de programar, falta sequência e alguém que olhe para o teu código.",
+    "longBioEn": "I started at ITEL, where I spent two years building portals and platforms for the Angolan public sector: distance-learning environments, school management systems, application portals. I learned something there that still guides me — software that serves many people has to be simple to operate and hard to break.\n\nToday I am a tech lead at Kinsari, where I make architecture decisions, review code and act as a bridge between the people writing the code and the people who need the result. I work mostly in PHP/Laravel, JavaScript/Node and Next.js, with Docker and CI/CD around it.\n\nOutside work, I mentor Angolan developers and write about software development. That is the part I enjoy most: in Angola there is no shortage of willingness to code — what is missing is sequence, and someone looking at your work.",
+    "currentRole": "Líder Técnico",
+    "currentCompany": "Kinsari — Sistemas de Informação",
+    "currentCompanyUrl": "https://kinsari.com",
+    "email": "manuelluvuvamo337@gmail.com",
+    "phone": "+244 928 891 398",
+    "location": "Luanda, Angola",
+    "avatarUrl": "/img/5.jpeg",
+    "resumePtUrl": "/CV - Manuel Luvuvamo - Desenvolvedor de Software 2025.pdf",
+    "resumeEnUrl": "/CV - Manuel Luvuvamo - Software Developer 2025.pdf",
+    "availableForWork": false,
+    "availabilityNote": "Aberto a mentorias e a conversas sobre projectos."
+  },
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/manuelluvuvamo",
+      "icon": "github",
+      "username": "manuelluvuvamo",
+      "orderIndex": 1,
+      "visible": true
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/manuel-luvuvamo-912907218/",
+      "icon": "linkedin",
+      "username": "manuel-luvuvamo",
+      "orderIndex": 2,
+      "visible": true
+    },
+    {
+      "label": "X",
+      "url": "https://twitter.com/manuelluvuvamo",
+      "icon": "twitter",
+      "username": "@manuelluvuvamo",
+      "orderIndex": 3,
+      "visible": true
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/manuelluvuvamo",
+      "icon": "instagram",
+      "username": "@manuelluvuvamo",
+      "orderIndex": 4,
+      "visible": true
+    },
+    {
+      "label": "Email",
+      "url": "mailto:manuelluvuvamo337@gmail.com",
+      "icon": "mail",
+      "username": "manuelluvuvamo337@gmail.com",
+      "orderIndex": 5,
+      "visible": true
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Kinsari — Sistemas de Informação",
+      "role": "Líder Técnico",
+      "location": "Luanda, Angola",
+      "companyUrl": "https://kinsari.com",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "current": true,
+      "description": "Responsável pelas decisões técnicas da equipa de desenvolvimento e pela ponte entre a engenharia e as áreas de negócio.",
+      "highlights": [
+        "Tomada de decisão técnica e definição de arquitectura.",
+        "Mentoria e liderança da equipa de desenvolvimento.",
+        "Ponte entre as áreas técnica e de negócio.",
+        "Garantia de qualidade e cumprimento de prazos."
+      ],
+      "projects": [],
+      "orderIndex": 1
+    },
+    {
+      "company": "Kinsari — Sistemas de Informação",
+      "role": "Desenvolvedor de Software",
+      "location": "Luanda, Angola",
+      "companyUrl": "https://kinsari.com",
+      "startDate": "2024-02-19",
+      "endDate": null,
+      "current": true,
+      "description": "Desenvolvimento e manutenção de software à medida, da concepção à implementação.",
+      "highlights": [
+        "Manutenção evolutiva e correctiva de softwares existentes.",
+        "Desenvolvimento de software à medida, da concepção à implementação.",
+        "Integração e extensibilidade de sistemas entre plataformas diferentes.",
+        "Design e modelagem de bases de dados escaláveis.",
+        "Revisão de código e defesa de boas práticas.",
+        "Design e arquitectura de software.",
+        "Suporte técnico a utilizadores e sistemas."
+      ],
+      "projects": [],
+      "orderIndex": 2
+    },
+    {
+      "company": "Instituto de Telecomunicações — ITEL",
+      "role": "Desenvolvedor Web",
+      "location": "Luanda, Angola",
+      "companyUrl": "https://itel.gov.ao/",
+      "startDate": "2021-09-01",
+      "endDate": "2023-07-28",
+      "current": false,
+      "description": "Centro de Desenvolvimento de Competências do ITEL. Construção de portais e plataformas para o sector público angolano.",
+      "highlights": [
+        "Desenvolvimento de APIs REST para comunicação entre sistemas.",
+        "Testes de validação e integração.",
+        "Desenvolvimento de sites, portais, plataformas e aplicações web.",
+        "Configuração de servidores Linux para alojamento e execução.",
+        "Testes de aceitação do utilizador (UAT).",
+        "Estratégias de branching e integração contínua."
+      ],
+      "projects": [
+        "Xilonga",
+        "Itel Vagas",
+        "Sistema de Gestão Escolar",
+        "Huawei Lead23",
+        "GPEU"
+      ],
+      "orderIndex": 3
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Lusíada de Angola",
+      "degree": "Licenciatura em Engenharia Informática",
+      "field": "Informática",
+      "location": "Luanda, Angola",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "current": true,
+      "description": "Em frequência do 3.º ano.",
+      "grade": null,
+      "orderIndex": 1
+    },
+    {
+      "institution": "Instituto de Telecomunicações — ITEL",
+      "degree": "Técnico Médio Profissional de Informática",
+      "field": "Informática",
+      "location": "Luanda, Angola",
+      "institutionUrl": "https://itel.gov.ao/",
+      "startDate": "2019-02-01",
+      "endDate": "2023-07-28",
+      "current": false,
+      "description": "Desenvolvimento de sistemas, suporte técnico e manutenção de equipamentos informáticos. Tese: Sistema de Gestão de Eventos e Controle de Acesso via RFID.",
+      "grade": "17 valores",
+      "orderIndex": 2
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Formação Engenharia de Software",
+      "issuer": "Alura",
+      "issuedAt": "2025-04-11",
+      "credentialUrl": "https://cursos.alura.com.br/user/manuelluvuvamo337/degree-engenharia-software-287214/certificate?lang=pt_BR",
+      "description": "Microsserviços, integração contínua, entrega contínua, Scrum, equipas ágeis, Extreme Programming e Quality Assurance.",
+      "featured": true,
+      "orderIndex": 1
+    },
+    {
+      "title": "Certificação de Bases de Dados Relacionais",
+      "issuer": "freeCodeCamp",
+      "issuedAt": "2024-12-20",
+      "credentialUrl": "https://www.freecodecamp.org/certification/manuelluvuvamo/relational-database-v8",
+      "description": "Gestão estrutural e de dados de bases relacionais com SQL e Shell Script.",
+      "featured": true,
+      "orderIndex": 2
+    },
+    {
+      "title": "Fundamentos de C# com a Microsoft",
+      "issuer": "Microsoft / freeCodeCamp",
+      "issuedAt": "2024-04-16",
+      "credentialUrl": "https://freecodecamp.org/certification/fcc2fda3988-677d-4e7b-bdfe-bc198b27f8a4/foundational-c-sharp-with-microsoft",
+      "description": "Desenvolvimento e depuração de aplicações .NET em C#.",
+      "featured": true,
+      "orderIndex": 3
+    },
+    {
+      "title": "The Ultimate Docker Course",
+      "issuer": "Code with Mosh",
+      "issuedAt": "2024-11-08",
+      "credentialUrl": "/certificate-of-completion-for-the-ultimate-docker-course.pdf",
+      "description": "Docker, Docker Compose e Docker Machine.",
+      "featured": true,
+      "orderIndex": 4
+    },
+    {
+      "title": "PHP e Clean Architecture",
+      "issuer": "Alura",
+      "issuedAt": "2025-01-19",
+      "credentialUrl": "https://cursos.alura.com.br/certificate/1f3ebb32-562d-441f-92aa-c4060ef8bb53?lang=pt_BR",
+      "description": "Camadas, repositórios e serviços aplicados a PHP.",
+      "featured": false,
+      "orderIndex": 5
+    },
+    {
+      "title": "Integração Contínua",
+      "issuer": "Alura",
+      "issuedAt": "2025-01-20",
+      "credentialUrl": "https://cursos.alura.com.br/certificate/d8a68445-957e-4a5d-aea8-0078d1d31ad4?lang=pt_BR",
+      "description": "Estratégias de ramificação, builds e testes automatizados.",
+      "featured": false,
+      "orderIndex": 6
+    },
+    {
+      "title": "Entrega Contínua",
+      "issuer": "Alura",
+      "issuedAt": "2025-01-23",
+      "credentialUrl": "https://cursos.alura.com.br/certificate/e696c36a-248a-4465-9f96-e3afaa1dea3d?lang=pt_BR",
+      "description": "Pipeline de deploy, homologação e estratégias de release.",
+      "featured": false,
+      "orderIndex": 7
+    },
+    {
+      "title": "Scrum: agilidade em seu projeto",
+      "issuer": "Alura",
+      "issuedAt": "2025-02-17",
+      "credentialUrl": "https://cursos.alura.com.br/certificate/manuelluvuvamo337/scrum-agilidade-seu-projeto?lang=pt_BR",
+      "description": "Framework, papéis e elementos centrais do Scrum.",
+      "featured": false,
+      "orderIndex": 8
+    },
+    {
+      "title": "Equipas ágeis: organizando os papéis",
+      "issuer": "Alura",
+      "issuedAt": "2025-02-26",
+      "credentialUrl": "https://cursos.alura.com.br/certificate/manuelluvuvamo337/equipes-ageis-organizando-papeis-equipe?lang=pt_BR",
+      "description": "Agilidade nas empresas e papéis dentro e fora do Scrum.",
+      "featured": false,
+      "orderIndex": 9
+    },
+    {
+      "title": "SQL Intermediário",
+      "issuer": "Sololearn",
+      "issuedAt": "2023-05-29",
+      "credentialUrl": "https://www.sololearn.com/certificates/CC-EXBOBDBJ",
+      "description": "Manipulação de bases de dados com SQL.",
+      "featured": false,
+      "orderIndex": 10
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "category": "Backend",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 0
+    },
+    {
+      "name": "Laravel",
+      "category": "Backend",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 1
+    },
+    {
+      "name": "CodeIgniter",
+      "category": "Backend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 2
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 3
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 4
+    },
+    {
+      "name": "Java / Spring Boot",
+      "category": "Backend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 5
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 10
+    },
+    {
+      "name": "React",
+      "category": "Frontend",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 11
+    },
+    {
+      "name": "JavaScript",
+      "category": "Frontend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 12
+    },
+    {
+      "name": "TypeScript",
+      "category": "Frontend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 13
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 14
+    },
+    {
+      "name": "Livewire",
+      "category": "Frontend",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 15
+    },
+    {
+      "name": "MySQL",
+      "category": "Base de dados",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 20
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Base de dados",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 21
+    },
+    {
+      "name": "SQL Server",
+      "category": "Base de dados",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 22
+    },
+    {
+      "name": "MongoDB",
+      "category": "Base de dados",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 23
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps e automação",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 30
+    },
+    {
+      "name": "CI/CD (GitHub Actions, Azure DevOps)",
+      "category": "DevOps e automação",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 31
+    },
+    {
+      "name": "Linux",
+      "category": "DevOps e automação",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 32
+    },
+    {
+      "name": "Git",
+      "category": "DevOps e automação",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 33
+    },
+    {
+      "name": "PHPUnit",
+      "category": "Testes e qualidade",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 40
+    },
+    {
+      "name": "PestPHP",
+      "category": "Testes e qualidade",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 41
+    },
+    {
+      "name": "Mockery",
+      "category": "Testes e qualidade",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 42
+    },
+    {
+      "name": "Clean Architecture",
+      "category": "Arquitectura",
+      "level": 5,
+      "featured": true,
+      "orderIndex": 50
+    },
+    {
+      "name": "Arquitectura Hexagonal",
+      "category": "Arquitectura",
+      "level": 4,
+      "featured": true,
+      "orderIndex": 51
+    },
+    {
+      "name": "Design Patterns",
+      "category": "Arquitectura",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 52
+    },
+    {
+      "name": "Princípios SOLID",
+      "category": "Arquitectura",
+      "level": 4,
+      "featured": false,
+      "orderIndex": 53
+    }
+  ],
+  "projects": [
+    {
+      "title": "Xilonga",
+      "slug": "xilonga",
+      "summary": "Ambiente virtual de ensino à distância construído para o Ministério da Educação de Angola.",
+      "description": "Plataforma de ensino à distância para o Ministério da Educação, desenvolvida no Centro de Desenvolvimento de Competências do ITEL. Gestão de cursos, turmas, materiais e avaliação online.",
+      "tech": ["PHP", "Laravel", "MySQL", "Linux"],
+      "role": "Desenvolvedor Web",
+      "year": 2022,
+      "category": "PROFESSIONAL",
+      "featured": true,
+      "status": "PUBLISHED",
+      "orderIndex": 1
+    },
+    {
+      "title": "Huawei Lead23",
+      "slug": "huawei-lead23",
+      "summary": "Portal oficial de candidatura aos cursos da Huawei em parceria com o MINTTICS.",
+      "url": "https://lead23.itel.gov.ao",
+      "description": "Portal de candidaturas a formação profissional, com validação documental, gestão de vagas e acompanhamento do processo de selecção.",
+      "tech": ["PHP", "Laravel", "MySQL"],
+      "role": "Desenvolvedor Web",
+      "year": 2023,
+      "category": "PROFESSIONAL",
+      "featured": true,
+      "status": "PUBLISHED",
+      "orderIndex": 2
+    },
+    {
+      "title": "ITEL Vagas",
+      "slug": "itel-vagas",
+      "summary": "Plataforma de oferta de vagas de estágio do Instituto de Telecomunicações.",
+      "url": "https://vagas.itel.gov.ao",
+      "description": "Plataforma que liga estudantes do ITEL a vagas de estágio, com candidatura online e gestão do lado das empresas.",
+      "tech": ["PHP", "Laravel", "MySQL"],
+      "role": "Desenvolvedor Web",
+      "year": 2022,
+      "category": "PROFESSIONAL",
+      "featured": true,
+      "status": "PUBLISHED",
+      "orderIndex": 3
+    },
+    {
+      "title": "Sistema de Gestão Escolar",
+      "slug": "sistema-de-gestao-escolar",
+      "summary": "Ferramenta de gestão usada pelo ITEL e por escolas da província do Uíge.",
+      "description": "Matrículas, turmas, pautas e emissão de documentos escolares. Desenhado para funcionar com ligações instáveis e ser operado por pessoal não técnico.",
+      "tech": ["PHP", "Laravel", "MySQL"],
+      "role": "Desenvolvedor Web",
+      "year": 2022,
+      "category": "PROFESSIONAL",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 4
+    },
+    {
+      "title": "GPEU",
+      "slug": "gpeu",
+      "summary": "Sistema de estatísticas escolares e portal do Gabinete Provincial de Educação do Uíge.",
+      "description": "Recolha e consolidação de estatísticas escolares da província, com portal público de divulgação.",
+      "tech": ["PHP", "Laravel", "MySQL"],
+      "role": "Desenvolvedor Web",
+      "year": 2023,
+      "category": "PROFESSIONAL",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 5
+    },
+    {
+      "title": "SmartBrace",
+      "slug": "smartbrace",
+      "summary": "Sistema de gestão de eventos e controlo de acesso para Angola.",
+      "url": "https://smartbrace.ao/",
+      "description": "Gestão de eventos, bilhética e controlo de acesso. Nasceu da tese de fim de curso sobre controlo de acesso via RFID.",
+      "tech": ["PHP", "Laravel", "MySQL", "RFID"],
+      "role": "Desenvolvedor",
+      "year": 2023,
+      "category": "PROFESSIONAL",
+      "featured": true,
+      "status": "PUBLISHED",
+      "orderIndex": 6
+    },
+    {
+      "title": "Zengá",
+      "slug": "zenga",
+      "summary": "Plataforma web desenvolvida para o mercado angolano.",
+      "url": "https://zenga.co.ao",
+      "description": "Plataforma web construída para o mercado angolano, com foco em simplicidade de operação.",
+      "tech": ["PHP", "Laravel"],
+      "role": "Desenvolvedor",
+      "year": 2024,
+      "category": "PROFESSIONAL",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 7
+    },
+    {
+      "title": "laravel-bug-courier",
+      "slug": "laravel-bug-courier",
+      "summary": "Pacote Laravel para reporte estruturado de bugs em várias plataformas. Publicado no Packagist.",
+      "url": "https://packagist.org/packages/manuelluvuvamo/laravel-bug-courier",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/laravel-bug-courier",
+      "description": "Recolhe o contexto de uma excepção e encaminha-o para o destino que escolheres — Slack, Discord, email, issue tracker — num formato consistente e legível.",
+      "tech": ["PHP", "Laravel", "PHPUnit"],
+      "role": "Autor e mantenedor",
+      "year": 2025,
+      "category": "OPEN_SOURCE",
+      "featured": true,
+      "status": "PUBLISHED",
+      "orderIndex": 8
+    },
+    {
+      "title": "laravel-livewire-select2",
+      "slug": "laravel-livewire-select2",
+      "summary": "Integração do plugin Select2 com o Laravel Livewire.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/laravel-livewire-select2",
+      "description": "Faz o Select2 e o Livewire coexistirem sem perder estado entre renderizações — um problema recorrente de quem usa os dois juntos.",
+      "tech": ["JavaScript", "Laravel", "Livewire"],
+      "role": "Autor",
+      "year": 2025,
+      "category": "OPEN_SOURCE",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 9
+    },
+    {
+      "title": "CleanArchPHP",
+      "slug": "cleanarchphp",
+      "summary": "Projecto de estudo de Clean Architecture aplicada a PHP.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/CleanArchPHP",
+      "description": "Camadas, repositórios e casos de uso em PHP puro, sem framework, para isolar o que é decisão de arquitectura do que é conveniência do framework.",
+      "tech": ["PHP", "PHPUnit"],
+      "role": "Autor",
+      "year": 2025,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 10
+    },
+    {
+      "title": "edutree",
+      "slug": "edutree",
+      "summary": "Experiência em Python à volta de estruturas de aprendizagem.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/edutree",
+      "description": "Exploração de trilhas de estudo como estrutura de dados navegável.",
+      "tech": ["Python"],
+      "role": "Autor",
+      "year": 2025,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 11
+    },
+    {
+      "title": "SGH — Gestão Hospitalar",
+      "slug": "sgh-gestao-hospitalar",
+      "summary": "Sistema de gestão hospitalar em Laravel.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/SGH",
+      "description": "Consultas, pacientes e registos clínicos.",
+      "tech": ["PHP", "Laravel"],
+      "role": "Autor",
+      "year": 2023,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 12
+    },
+    {
+      "title": "Desafio Dev — CNAB",
+      "slug": "desafio-dev-cnab",
+      "summary": "Processamento de ficheiros CNAB num desafio fullstack.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/desafio-dev-fullstack",
+      "description": "Importação e normalização de ficheiros CNAB, com relatório por loja.",
+      "tech": ["PHP", "Laravel"],
+      "role": "Autor",
+      "year": 2023,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 13
+    },
+    {
+      "title": "Lista de Presença",
+      "slug": "lista-de-presenca",
+      "summary": "Registo de presenças em JavaScript.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/listadepresenca",
+      "tech": ["JavaScript"],
+      "role": "Autor",
+      "year": 2022,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 14
+    },
+    {
+      "title": "AngoGest",
+      "slug": "angogest",
+      "summary": "Interface de gestão para o contexto angolano.",
+      "repositoryUrl": "https://github.com/manuelluvuvamo/angogest",
+      "tech": ["HTML", "CSS"],
+      "role": "Autor",
+      "year": 2022,
+      "category": "EXPERIMENT",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 15
+    },
+    {
+      "title": "Quick and Safe Shopping",
+      "slug": "quick-and-safe-shopping",
+      "summary": "Plataforma de importação, gestão administrativa, pagamentos e serviços digitais. Projecto próprio.",
+      "url": "https://facebook.com/quickandsafeshopping",
+      "description": "Serviço de importação e serviços digitais para o mercado angolano, fundado e gerido por mim.",
+      "tech": ["Laravel", "MySQL"],
+      "role": "Fundador",
+      "year": 2023,
+      "category": "PROFESSIONAL",
+      "featured": false,
+      "status": "PUBLISHED",
+      "orderIndex": 16
+    }
+  ],
+  "posts": [
+    {
+      "title": "Engenharia de Software: API & REST",
+      "slug": "api-rest",
+      "excerpt": "Explorando conceitos e boas práticas para APIs e REST.",
+      "content": "Da série de estudos sobre desenvolvimento de software, hoje é dia de falar sobre dois elementos muito conhecidos actualmente: API e REST, este texto tem como objetivo abordar alguns conceitos e tópicos relevantes sobre cada um deles.\n\n###  API (Application Programming Interface) \n\nEm português, **Interface de Programação de Aplicações**, é um conjunto de rotinas e padrões estabelecidos por um software para que suas funcionalidades possam ser utilizadas por aplicações externas sem que estas precisem conhecer detalhes da implementação do software. Geralmente são criadas rotas que ficam expostas e recebem requisições HTTP com o objetivo de retornar dados num determinado padrão, sem esquecer a segurança com autenticação e autorização.\n\n#### <u>Vejamos um exemplo com actividades da vida real em que temos as seguintes personagens</u>\n\n1.A **Maria** (utilizador) vai à cafetaria e diz ao **João** (API) que quer um hambúrguer com as suas preferências (método e parâmetros);\n\n2.O **João** (API) passa o pedido ao **Pedro** (a aplicação por detrás da API) para preparar o hambúrguer (pedido);\n\n3.O **Pedro** prepara o hambúrguer e devolve-o ao **João** (resposta);\n\n4.O **João** entrega o hambúrguer pronto à **Maria** (resposta).\n\n#### <u>Tipos de API Comuns</u>\n\n-**API Web**: as que os devs criam para serem consumidas por outras aplicações na Internet;\n\n![Rota de API web Laravel](/img/APIWeb.png)\n\n-**API de código fonte**: as que as linguagens de programação ou frameworks fornecem, por exemplo, a API de datas, linguagens como Javascript, PHP, C# e outras fornecem um conjunto de mecanismos para aceder e manipular datas.\n\n![API de Datas do Javascript](/img/APIData.png)\n\n###  REST (Representational State Transfer) \n\n**Transferência Representacional de Estado**, é um modelo de arquitetura apresentado na tese de doutoramento de <a href=\"https://en.wikipedia.org/wiki/Roy_Fielding\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Roy Fielding </a> na decada de 2000 que fornece directrizes para que os sistemas distribuidos comuniquem directamente utilizando  os princípios e protocolos da Web existentes, sem necessidade <a href=\"https://pt.wikipedia.org/wiki/SOAP\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">SOAP</a> de qualquer outro protocolo sofisticado.\n\nExiste um princípio no REST chamado STATELESSNESS, em que o servidor não precisa de saber em que estado se encontra o cliente e vice-versa. \n\nO REST requer que um cliente efectue uma requisição ao servidor para enviar ou modificar dados. Uma requisição consiste em:\n\n#### <u>Estrutura de uma Requisição REST</u>\n\n-**Um verbo ou método HTTP**, que define que tipo de operação o servidor vai realizar;\n\n-**Um header**, com o cabeçalho da requisição que fornece informações sobre a requisição;\n\n-**Um path (caminho ou rota)** para o servidor, ex.: <a href=\"https://manuelluvuvamo.vercel.app/blog/programador_zero\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://manuelluvuvamo.vercel.app/blog/programador_zero</a>;\n\n-**Informação no corpo da requisição**, sendo esta informação opcional.\n\n#### <u>Métodos HTTP mais utilizados</u>\n\n-**GET**: é geralmente usado para solicitar que um servidor envie um recurso ou informação;\n\n-**POST**: é frequentemente utilizado para suportar formulários HTML, ou seja, envia dados de entrada para o servidor;\n\n-**PUT**: edita e actualiza documentos num servidor;\n\n-**DELETE**: elimina um determinado dado ou coleção do servidor.\n\n###  APIs REST: Boas Práticas \n\nFinalmente, as API REST, nesta parte gostaria de fazer algumas recomendações relacionadas com os endpoints (os URL's) que serão disponibilizados:\n\n#### 1.Usar pronomes em vez de verbos, e não misturar plural e singular:\n\n```php \n   /getAllBooks ❌\n   /createNewBook ❌\n   /books ✅\n   /categories ✅\n```\n\n#### 2.Utilizar sub-recursos, ou seja, as relações existentes devem ser claramente indicadas no URL:\n\n```php\n   GET /books/authors/100 ❌\n   GET /books/100/authors ✅ (retorna os autores do livro 100)\n   GET /books/100/authors/1 ✅ (retorna o autor 1 do livro 100)\n```\n\n#### 3.Não igonrar os cabeçalhos HTTP, há informações que devem ser transmitidas através deles:\n\n- **Content-Type**: Indica qual o tipo de mídia de um recurso\n- **Accept**: anuncia quais os tipos de conteúdo, expressos como MIME types, que o cliente é capaz de compreender, normalmente JSON\n- **Authorization**: contém as credenciais para autenticar o agente do utilizador com o servidor\n- etc...\n\n#### 4.Versionamento da API\n\nVersionar uma API é essencial tanto para os criadores quanto para os consumidores. Por exemplo:\n\n- <a href=\"https://www.api.bookstore-manuelluvuvamo.com/v1/books\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.api.bookstore-manuelluvuvamo.com/v1/books</a>\n- <a href=\"https://www.api.bookstore-manuelluvuvamo.com/v2/books\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.api.bookstore-manuelluvuvamo.com/v2/books</a>\n\nManter versões anteriores ativas por um período de transição permite que consumidores atualizem seus sistemas sem interrupções.\n\nSem esquecer façam testes, automatizados de preferência, seja eles unitários ou de integração.😅🐞\n\n---\n\nObrigado por ler até aqui! Curta, compartilhe e deixe sua opinião <a href=\"https://manuelluvuvamo.vercel.app/contact\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Aqui!</a> 💻🚀",
+      "tags": [],
+      "readingMinutes": 4,
+      "publishedAt": "2025-01-14T23:00:00.000Z",
+      "featured": false,
+      "status": "PUBLISHED"
+    },
+    {
+      "title": "Programador Zero: Aprendendo a Programar do Absoluto Zero",
+      "slug": "programador-zero",
+      "excerpt": "“Olá, sou uma pessoa interessada em aprender a programar, mas não tenho qualquer formação. Já vi que és bom nisso, o que sugeres? Assim como eu, acredito que muitos programadores e…",
+      "content": "“Olá, sou uma pessoa interessada em aprender a programar, mas não tenho qualquer formação. Já vi que és bom nisso, o que sugeres? \n\nAssim como eu, acredito que muitos programadores e desenvolvedores já receberam esse tipo de mensagem diversas vezes ou até mesmo como iniciantes e aspirantes já enviaram essa mensagem muitas vezes. A falta de orientação é realmente frustrante para quem quer se iniciar. Há muito conteúdo disponível online, mas a má compreensão dos algoritmos de pesquisa e da complexa maquinaria que é a Internet frustra as hipóteses de obter facilmente os melhores resultados.\n\nHá um ano, quando leccionei o curso de programação web no CFITEL, recebi muitos entusiastas em bruto da matéria. Embora tenha ultrapassado esta dificuldade com uma ou duas aulas introdutórias para construir pequenas bases, vi-me obrigado a orientá-los mesmo depois do curso e a obrigá-los a voltar aos princípios básicos da lógica e a aprender linguagens mais simples, como Python, por exemplo.\n\nNeste artigo descrevo do meu ponto de vista, o que considero ser uma receita saudável e funcional para quem quer escrever o seu primeiro código e evoluir como programador/desenvolvedor.\n\n###  1. BASES SÓLIDAS EM LÓGICA MATEMÁTICA E DE PROGRAMAÇÃO \n\nÉ sabido que a informática está intrinsecamente ligada à matemática desde os seus primórdios, pelo que é muito importante dominar as preposições e conjunções matemáticas, construir um pensamento lógico e crítico e treinar a mente para que os resultados possíveis sejam apenas verdadeiros ou falsos, omitindo assim o talvez.\n\nA lógica de programação oferece aos entusiastas conceitos práticos em português, sobretudo, que serão úteis na aprendizagem de uma linguagem de programação de baixo ou alto nível.\n\nNa programação, a lógica é central, pois muitas operações só funcionam devido a operadores como os condicionais, quando a execução de um determinado trecho de código (conjunto de instruções) depende de um conjunto de condições que se verificam ou não, as estruturas condicionais devolvem um resultado booleano (verdadeiro ou falso), no final é só isso, ou é verdadeiro ou é falso, tão simples como beber água. As estruturas condicionais utilizam operadores de comparação conhecidos na matemática como:\n\n-Maior que: `a > b` \n\n-Menor que: `a < b` \n\n-Maior que ou igual: `a >= b` \n\n-Menor ou igual: `a <= b` \n\n-Igual: existem duas ou mais formas, = ou == consoante a linguagem ou a tecnologia...\n\nNão só os operadores de comparação são importantes, como as conjunções, que também geram a famosa tabela de verdade, são frequentemente utilizadas em condições para juntar duas ou mais condições: Ou, E, Negação, etc. \n\n```cmd\n\n   Algoritmo \"Exemplo Lógica de Programação (VisualG)\"\n   // Descrição   : Exemplo sobre Lógica de Programação com VisualG\n   // Autor(a)    : Manuel Luvuvamo\n   // Data atual  : 23/09/2024\n   Var\n   // Seção de Declarações das variáveis \n   a, b, c, d:inteiro\n\n   Inicio\n   // Seção de Comandos, procedimento, funções, operadores, etc... \n\n   a <- 5\n   b <- 10\n   c <- 2\n   d <- 0\n\n   se a > b ENTAO\n      escreval(\"Opção 1\")\n   senao\n      se c > d ENTAO\n         escreval(\"Opção 2\")\n         \n      senao\n            escreval(\"Opção 3\")\n         fimse\n   fimse\n\n   Fimalgoritmo\n\n```\n\nRecomendação: <a href=\"https://www.cursoemvideo.com/curso/curso-de-algoritmo/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Curso de Algoritmos de Gustavo Guanabara </a> \n\n###  2. LINGUAGENS DE PROGRAMAÇÃO DE BAIXO NÍVEL \n\nDepois de ter uma boa base em lógica de programação, é altura de aprender uma linguagem de baixo nível (mais próxima da linguagem de máquina), que abre portas e, em muitos casos, diferencia os programadores dos desenvolvedores (talvez uma conversa para outro artigo).\n\nDepois do Assembly, COBOL, BASIC, Pascal e outras, surgiu a linguagem C, que ainda hoje é muito utilizada. Essa poderosíssima linguagem oferece inúmeros mecanismos para consumir e manipular recursos de hardware, manipular memória e assim por diante. Eu particularmente comecei com uma linguagem similar e igualmente poderosa, o C++, mas ainda assim recomendo fortemente que se aprenda pelo menos até a manipulação de arquivos ou mesmo recursividade (C++ por permitir estruturas de classes e métodos) com essas linguagens.\n\nRecomendações: Cursos do YouTube, Udemy e livros, especialmente os antigos (algumas coisas são como o vinho, quanto mais velho melhor).\n\n###  3. DIFERENTES ÁREAS E MERCADOS DE ACTUAÇÃO \n\nAgora que já sabes o básico, é fundamental pesquisar e definir que tipo de profissional queres ser no mundo da programação. Ser um nómada tecnológico não é tarefa fácil e pode levar a arrependimentos, por isso, fazer alguma pesquisa sobre benefícios, oportunidades e talvez salários médios é um cupão para evitar arrependimentos, pois cada ramo tem as suas ramificações e nunca acaba.\n\n<u>Defina quem você quer ser: um programador ou um desenvolvedor.</u>\n\n- Programador: algumas literaturas os definem como profissionais que sabem escrever código, enquanto outras os definem como profissionais que se concentram em codificar projetos com especificações detalhadas previamente fornecidas por um analista ou engenheiro de software, podendo inclusive codificar soluções com linguagens de baixo ou alto nível, desktop ou mobile.\n\n- Desenvolvedor: também conhecido como desenvolvedor de software, é responsável por todo o ciclo de vida do software, desde a sua conceção até à sua implementação. São os profissionais que concebem e criam soluções. São especializados na criação de soluções completas de software.\n\nNoutras literaturas podemos ainda encontrar que um programador codifica soluções de baixo nível que são utilizadas por outros técnicos (programadores, analistas, etc.) tais como SO, IDE, Editores de Código, etc. Quem sabe qual é a abordagem correta? Eu acredito que sou um desenvolvedor de software...\n\nRecomendação: Leia artigos, livros, veja vídeos e participe em debates para esclarecer as suas dúvidas, sem esquecer que, no final, o objetivo é escolher o mercado em que vai actuar.\n\n###  4. ROADMAPS: \n\nFinalmente, depois de dominar a lógica de programação, aprender uma linguagem de baixo nível e ter uma ideia do tipo de profissional que se quer ser, está na altura de seguir algumas trilhas de estudo. Felizmente, o site <a href=\"https://roadmap.sh/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Roadmap.sh </a>  já nos oferece algumas trilhas criadas, a criação de trilhas por IA ou, quem sabe, talvez um dia eu crie uma trilha personalizada.\n\n<u>Conceitos frequentemente utilizados para diferenciar ambientes e tipos de soluções: </u> desktop para executáveis em computadores, mobile para executáveis em smartphones e finalmente web acessível na internet por navegadores.\n\nAtenção: O Rodmap não oferece cursos, ele oferece trilhas de estudo com recomendações sobre o que estudar e, em alguns casos, onde estudar.\n\n###  5. BÓNUS - LINGUAGEM DE ALTO NÍVEL VS LINGUAGEM DE BAIXO NÍVEL \n\nAs linguagens de baixo nível são aquelas cujas instruções estão mais próximas da linguagem de máquina, linguagem binária (zeros e uns). Exemplos: Assembly, C (embora seja considerada uma linguagem de nível intermédio), etc.\n\nAs linguagens de alto nível são aquelas cujas instruções se assemelham mais à linguagem humana, com uma lógica e uma coerência linguística que permitem aprender facilmente novas linguagens (instruções mais intuitivas). Eu já programei python sem saber python e isso até me valeu uma vitória numa Maratona de Programação com apenas um exercício, hilariante. Exemplos: C#, Java, Python, PHP, etc... \n\n“A programação é uma competência que melhora com a prática constante. Comece com pequenos passos, compreenda a lógica e, com o tempo, verá que os desafios se tornam oportunidades de aprendizagem. Boa sorte na sua jornada!\n\n###  REFERÊNCIAS \n\n1.Pratica Internet. (n.d.). Qual é a diferença entre programador e desenvolvedor? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor</a>\n\n2.Lopes, J. (n.d.). Programador, desenvolvedor ou engenheiro de software: qual a diferença? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca</a>",
+      "tags": [],
+      "readingMinutes": 7,
+      "publishedAt": "2024-09-22T23:00:00.000Z",
+      "featured": false,
+      "status": "PUBLISHED"
+    },
+    {
+      "title": "Livewire 3: Uma ferramenta poderosa para o desenvolvimento de SPA com Laravel",
+      "slug": "livewire3",
+      "excerpt": "Antes do Livewire, os programadores que optavam por utilizar o Laravel como ferramenta de desenvolvimento enfrentavam desafios significativos no que diz respeito ao desempenho das…",
+      "content": "![Componente do Livewire 3](/img/livewire3.jpeg)\n\nAntes do Livewire, os programadores que optavam por utilizar o Laravel como ferramenta de desenvolvimento enfrentavam desafios significativos no que diz respeito ao desempenho das suas aplicações, sendo um dos mais frequentes o desenvolvimento de SPAs.\n\n### SPA - Aplicação de página única\n\nTrata-se de uma aplicação Web ou de um software que imita a apresentação de vistas como uma aplicação de ambiente de trabalho, sem carregar a página no navegador e sem alterar a estrutura principal da página, carregando apenas o corpo da aplicação, ou seja, uma aplicação Web de página única. Para obter este efeito semelhante ao de frameworks como React e Vue, muitos desenvolvedores usaram Ajax, o que torna a aplicação menos eficiente. À medida que o Laravel evoluiu, a integração com React e Vue surgiu e mudou significativamente a forma como as aplicações eram desenvolvidas.\n\nHoje em dia, há muito tempo, o Livewire deu-nos uma nova visão e torna possível o carregamento reativo do corpo da página através dos seus métodos “wire”.\n\nA versão 3 do Livewire simplificou muita coisa, eu particularmente gosto e recomendo fortemente para quem quer construir SPA's de forma simples sem sair do Laravel, todos os dispatchers foram encurtados para apenas dispatch, listeners foram removidos e o wire é suficiente para disparar funções de forma assíncrona nos componentes do Livewire.\n\nPara mais informações, consultar a documentação! <a href=\"https://livewire.laravel.com/docs/quickstart\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Livewire</a>",
+      "tags": [],
+      "readingMinutes": 2,
+      "publishedAt": "2024-05-01T23:00:00.000Z",
+      "featured": false,
+      "status": "PUBLISHED"
+    },
+    {
+      "title": "Desenvolvimento profissional e ideias para projectos",
+      "slug": "project-ideas",
+      "excerpt": "Depois de um período de fraco desempenho e poucas novidades no meu perfil profissional como developer, nos últimos dias tive algumas ideias brilhantes que me fizeram voltar a estud…",
+      "content": "Depois de um período de fraco desempenho e poucas novidades no meu perfil profissional como developer, nos últimos dias tive algumas ideias brilhantes que me fizeram voltar a estudar conceitos e tecnologias com os quais não lidava há anos. Comecei uma nova jornada estudando ativamente ferramentas que facilitam a criação de soluções web no setor de importação e dropshipping por conta de uma ideia de projeto relacionada ao Quick and Safe Shopping.\n\nDesde o dia 19 de janeiro que tenho vindo a refrescar e atualizar os meus conhecimentos de WordPress, uma poderosa framework PHP que permite fazer muito mais do que simples Blogs e LandingPages. Já assisti a cerca de 10 horas de vários tutoriais onde repliquei com sucesso três (3) projectos interessantes, duas LandingPages de serviços e um Blog.\n\nNos próximos dias estarei a desenvolver as soluções que idealizei para importar e fazer dropshipping em Angola de forma segura. Ainda tenho muito estudo pela frente para conseguir lidar com uma enorme gama de plugins e ferramentas, mas assim que concluir os projectos irei partilhá-los em todos os meus perfis profissionais.\n\n###  Preços para o desenvolvimento de sites \n\nA fixação de preços é uma das maiores dores de cabeça para qualquer programador ou programador freelancer e, durante o meu processo de formação e atualização, pude encontrar e responder a algumas perguntas pertinentes que ajudam neste processo. Algumas das perguntas a responder para obter bons preços são:\n\n1. Quantos dias por mês quer trabalhar?\n a. Quantas horas por dia?\n b. Quantos sites pode fazer nesse tempo?\n\n2. Quanto é que gasta por mês?\n a. Por exemplo, se planear trabalhar 21 dias por mês (com os fins-de-semana livres) e cerca de 8 horas por dia, quantos sítios Web pode criar nesse período?\n\nVamos supor que suas despesas mensais, como aluguel, alimentação, internet, ferramentas de trabalho e outras contas giram em torno de kz 338.965,86 por mês, desenvolvendo pelo menos 5 sites por mês, fazendo um cálculo básico cada site custaria em média 67.793,17. É fundamental colocar uma margem de lucro em cima disso, por exemplo, se colocar uma margem de lucro de 50% ganharia kz 508.448,79 e dividir isso por 5 sites, cada um dos quais teria que ser vendido por uma média de kz 101.689,76.\n\nO conhecimento nunca é demais. Continue a estudar, abrace novos desafios e o sucesso espera-o!",
+      "tags": [],
+      "readingMinutes": 2,
+      "publishedAt": "2024-01-19T23:00:00.000Z",
+      "featured": false,
+      "status": "PUBLISHED"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Artigo Semanal",
+      "slug": "artigo-semanal",
+      "excerpt": "Série de textos semanais sobre desenvolvimento de software para a comunidade angolana.",
+      "externalUrl": "https://facebook.com/artogosemanal",
+      "source": "Artigo Semanal",
+      "tags": ["comunidade"],
+      "publishedAt": "2024-01-01T00:00:00.000Z",
+      "status": "PUBLISHED"
+    }
+  ],
+  "vlogs": [],
+  "essays": [
+    {
+      "title": "Comunidade e mentoria para devs angolanos",
+      "slug": "comunidade-e-mentoria-para-devs-angolanos",
+      "subtitle": "Porque é que o problema não é falta de conteúdo",
+      "content": "Em Angola não falta gente com vontade de programar. Falta **sequência**. O júnior angolano típico tem quarenta separadores abertos, três cursos começados, nenhum terminado, e ninguém que lhe diga *faz isto, depois aquilo, e quando terminares mostra-me*.\n\nO conteúdo já existe e é gratuito — roadmap.sh, freeCodeCamp, Curso em Vídeo, YouTube. O que não existe é ordem, contexto local e alguém a olhar.\n\nÉ por isso que estou a construir uma comunidade com três pilares: trilhas curadas em vez de cursos produzidos, rituais agendados em vez de presença permanente, e progressão por estatuto em vez de salário. A regra que ordena todas as decisões é uma só: nunca criar nada que só eu possa manter.",
+      "tags": ["comunidade", "mentoria", "angola"],
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "status": "PUBLISHED"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Em Angola não falta vontade de programar. Falta sequência, e alguém que olhe para o teu código.",
+      "author": null,
+      "context": "Sobre mentoria",
+      "featured": true,
+      "orderIndex": 1,
+      "status": "PUBLISHED"
+    },
+    {
+      "text": "Software que serve muita gente tem de ser simples de operar e chato de partir.",
+      "author": null,
+      "context": "Do tempo do ITEL",
+      "featured": true,
+      "orderIndex": 2,
+      "status": "PUBLISHED"
+    },
+    {
+      "text": "Nunca criar nada que só tu possas manter.",
+      "author": null,
+      "context": "Regra de arquitectura — e de comunidade",
+      "featured": true,
+      "orderIndex": 3,
+      "status": "PUBLISHED"
+    },
+    {
+      "text": "Não há pergunta básica demais. Há perguntas que nunca são feitas — e essas é que travam carreiras.",
+      "author": null,
+      "context": "Comunidade de devs",
+      "featured": false,
+      "orderIndex": 4,
+      "status": "PUBLISHED"
+    }
+  ]
+}
