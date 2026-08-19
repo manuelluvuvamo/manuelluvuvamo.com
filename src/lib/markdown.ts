@@ -1,4 +1,5 @@
 import rehypePrettyCode, { type Options as PrettyCodeOptions } from "rehype-pretty-code";
+import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 import remarkGfm from "remark-gfm";
@@ -11,8 +12,11 @@ import { unified } from "unified";
  * Corre no servidor, em tempo de build ou de revalidação — o cliente
  * recebe HTML puro, sem qualquer runtime de markdown.
  *
- * HTML embutido no markdown é ignorado de propósito: o conteúdo entra pelo
- * dashboard e não há razão para abrir essa porta.
+ * O HTML embutido no markdown é preservado. Os artigos usam-no para links
+ * com atributos e para sublinhados, e ignorá-lo fazia desaparecer os links
+ * em silêncio — o texto ficava, a ligação não. É seguro porque o conteúdo
+ * só entra por aqui: escrito por mim, no painel autenticado. Se um dia
+ * houver autores externos, isto tem de passar a ser sanitizado.
  */
 
 const prettyCodeOptions: PrettyCodeOptions = {
@@ -41,7 +45,8 @@ export async function renderMarkdown(markdown?: string | null): Promise<string> 
   const file = await unified()
     .use(remarkParse)
     .use(remarkGfm)
-    .use(remarkRehype)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
     .use(rehypeSlug)
     .use(rehypePrettyCode, prettyCodeOptions)
     .use(rehypeStringify)

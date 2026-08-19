@@ -12,7 +12,11 @@ import { NextResponse } from "next/server";
 export async function GET(_request: Request, { params }: { params: { id: string } }) {
   let upstream: Response;
   try {
-    upstream = await fetch(`${API_BASE_URL}/public/files/${params.id}`, { cache: "no-store" });
+    upstream = await fetch(`${API_BASE_URL}/public/files/${params.id}`, {
+      cache: "no-store",
+      // Uma imagem que não chega não pode prender o pedido indefinidamente.
+      signal: AbortSignal.timeout(10_000),
+    });
   } catch {
     return new NextResponse("Serviço de imagens indisponível.", { status: 502 });
   }

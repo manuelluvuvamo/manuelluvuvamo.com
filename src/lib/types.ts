@@ -130,6 +130,8 @@ export interface Experience extends BaseDocument {
   role: string;
   location?: string;
   companyUrl?: string;
+  /** Nome de um ícone da lista curada em lib/icons.ts. */
+  icon?: string;
   startDate: string;
   endDate?: string | null;
   current?: boolean;
@@ -153,7 +155,11 @@ export interface Education extends BaseDocument {
   orderIndex?: number;
 }
 
+/** Credencial atribuída após avaliação, ou formação concluída com certificado. */
+export type CertificationKind = "CERTIFICATION" | "COURSE";
+
 export interface Certification extends BaseDocument {
+  kind?: CertificationKind;
   title: string;
   issuer: string;
   issuedAt?: string;

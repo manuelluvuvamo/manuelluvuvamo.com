@@ -33,7 +33,18 @@ export async function POST(request: Request) {
       cache: "no-store",
     });
   } catch {
-    return NextResponse.json({ message: "Não foi possível contactar a API." }, { status: 502 });
+    // Um ficheiro muito acima do limite faz o servidor cortar a ligação a meio
+    // do envio: não há resposta para ler, só um erro de rede. O painel já
+    // verifica o tamanho antes de enviar, por isso aqui é mais provável ser
+    // mesmo a API estar em baixo — mas convém não esconder a outra hipótese.
+    return NextResponse.json(
+      {
+        message:
+          "A API não respondeu. Se a imagem for muito grande, reduz-lhe o tamanho; " +
+          "caso contrário, o serviço pode estar em baixo.",
+      },
+      { status: 502 }
+    );
   }
 
   const body = await apiResponse.json().catch(() => null);

@@ -8,6 +8,24 @@ const CONTROL =
   "w-full rounded-md border border-input bg-background px-3 py-2 text-sm transition-colors placeholder:text-subtle focus:border-accent";
 
 /**
+ * Limite de tamanho, verificado aqui antes de enviar.
+ *
+ * São 4 MB e não os 5 MB que a API aceita porque, em produção, o pedido
+ * passa por uma função do Vercel, que recusa corpos acima de ~4,5 MB antes
+ * de o nosso código sequer correr. Verificar no browser também evita o caso
+ * feio: um ficheiro muito grande faz o servidor cortar a ligação a meio do
+ * envio, e aí não há resposta nenhuma para ler — só um erro de rede que não
+ * explica nada.
+ */
+const MAX_BYTES = 4 * 1024 * 1024;
+const MAX_LABEL = "4 MB";
+
+function formatarTamanho(bytes: number): string {
+  const mb = bytes / (1024 * 1024);
+  return mb >= 1 ? `${mb.toFixed(1).replace(".", ",")} MB` : `${Math.round(bytes / 1024)} KB`;
+}
+
+/**
  * Campo de imagem: aceita um endereço escrito à mão ou um ficheiro carregado
  * do computador. O que fica guardado é sempre um endereço — carregar um
  * ficheiro apenas o preenche por ti.
@@ -30,6 +48,15 @@ export default function ImageField({
     const file = event.target.files?.[0];
     if (!file) return;
 
+    if (file.size > MAX_BYTES) {
+      setError(
+        `A imagem tem ${formatarTamanho(file.size)} e o limite é ${MAX_LABEL}. ` +
+          "Reduz-lhe o tamanho e tenta de novo."
+      );
+      if (fileInput.current) fileInput.current.value = "";
+      return;
+    }
+
     setPending(true);
     setError(null);
 
@@ -47,7 +74,7 @@ export default function ImageField({
 
       setValue(body.url);
     } catch {
-      setError("Falhou o carregamento. Verifica a ligação.");
+      setError("Falhou o carregamento. Verifica a ligação e tenta de novo.");
     } finally {
       setPending(false);
       // Permite voltar a escolher o mesmo ficheiro depois de um erro.
@@ -87,7 +114,13 @@ export default function ImageField({
         />
       </div>
 
-      {error && <p className="text-sm text-destructive">{error}</p>}
+      {error ? (
+        <p className="text-sm text-destructive">{error}</p>
+      ) : (
+        <p className="text-xs text-subtle">
+          JPEG, PNG, WebP, GIF, AVIF ou SVG, até {MAX_LABEL}.
+        </p>
+      )}
 
       <Preview src={value} />
     </div>

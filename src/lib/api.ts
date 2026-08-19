@@ -22,6 +22,16 @@ const FALLBACK = seed as unknown as PortfolioContent;
 const ATTEMPTS = 3;
 
 /**
+ * Tempo máximo por tentativa.
+ *
+ * Sem isto, uma API que aceita a ligação e depois não responde pendura o
+ * render para sempre — o build chega a ser abatido por fim de tempo. É um
+ * caso real, não teórico: no plano gratuito do Render o serviço adormece e
+ * demora perto de um minuto a acordar.
+ */
+const TIMEOUT_MS = 10_000;
+
+/**
  * `cache` desduplica as chamadas dentro do mesmo render: o layout e a página
  * pedem o conteúdo, mas só sai um pedido à API.
  */
@@ -53,6 +63,7 @@ async function fetchContent(): Promise<PortfolioContent> {
   const response = await fetch(`${API_BASE_URL}/public/bootstrap`, {
     next: { revalidate: REVALIDATE_SECONDS },
     headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
   });
 
   if (!response.ok) {
