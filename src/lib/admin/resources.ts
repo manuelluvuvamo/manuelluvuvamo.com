@@ -6,6 +6,8 @@
  * lêem daqui — acrescentar um tipo de conteúdo é acrescentar uma entrada.
  */
 
+import { ICON_OPTIONS } from "@/lib/icons";
+
 export type FieldType =
   | "text"
   | "textarea"
@@ -258,6 +260,13 @@ export const RESOURCES: Record<string, ResourceConfig> = {
       { name: "company", label: "Empresa", type: "text", required: true },
       { name: "location", label: "Localidade", type: "text" },
       { name: "companyUrl", label: "Site da empresa", type: "text" },
+      {
+        name: "icon",
+        label: "Ícone",
+        type: "select",
+        options: ICON_OPTIONS,
+        help: "Mostrado ao lado do cargo em /sobre.",
+      },
       { name: "startDate", label: "Início", type: "date", required: true },
       { name: "endDate", label: "Fim", type: "date", help: "Vazio se ainda estás lá." },
       { name: "current", label: "Cargo actual", type: "boolean" },
@@ -301,6 +310,17 @@ export const RESOURCES: Record<string, ResourceConfig> = {
     subtitleField: "issuer",
     metaField: "issuedAt",
     fields: [
+      {
+        name: "kind",
+        label: "Tipo",
+        type: "select",
+        options: [
+          { value: "CERTIFICATION", label: "Certificação" },
+          { value: "COURSE", label: "Curso com certificado" },
+        ],
+        help: "Certificação é uma credencial atribuída após avaliação; curso é formação concluída.",
+        full: true,
+      },
       { name: "title", label: "Título", type: "text", required: true },
       { name: "issuer", label: "Entidade emissora", type: "text", required: true },
       { name: "issuedAt", label: "Emitida em", type: "date" },

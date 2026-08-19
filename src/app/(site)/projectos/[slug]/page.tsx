@@ -1,4 +1,5 @@
 import { ExternalLink } from "@/components/site/ProjectRow";
+import ProjectThumb from "@/components/site/ProjectThumb";
 import Prose from "@/components/site/Prose";
 import { getContent } from "@/lib/api";
 import { renderMarkdown } from "@/lib/markdown";
@@ -59,6 +60,19 @@ export default async function ProjectPage({ params }: { params: { slug: string }
       </Link>
 
       <header className="mt-8 border-b border-border pb-10">
+        <div className="group mb-6">
+          <ProjectThumb
+            title={project.title}
+            slug={project.slug}
+            src={project.coverImage}
+            className={
+              project.coverImage
+                ? "aspect-[2/1] h-auto w-full"
+                : "h-16 w-16"
+            }
+          />
+        </div>
+
         <p className="eyebrow mb-3">
           {CATEGORY_LABEL[project.category ?? "PROFESSIONAL"]}
           {project.year ? ` · ${project.year}` : ""}

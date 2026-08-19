@@ -6,18 +6,16 @@
     "headlineEn": "Software developer, Tech Mentor, Solution creator",
     "shortBio": "Sou desenvolvedor de software e líder técnico na Kinsari, em Luanda. Desenho, construo e mantenho sistemas — com atenção particular à integração entre plataformas e à arquitectura que os aguenta a longo prazo.",
     "shortBioEn": "I am a software developer and tech lead at Kinsari, in Luanda. I design, build and maintain systems — with particular attention to integration between platforms and to the architecture that holds them up over time.",
-    "longBio": "Comecei no ITEL, onde passei dois anos a construir portais e plataformas para o sector público angolano: ambientes de ensino à distância, sistemas de gestão escolar, portais de candidatura. Aprendi ali uma coisa que ainda me orienta — software que serve muita gente tem de ser simples de operar e chato de partir.\n\nHoje sou líder técnico na Kinsari, onde tomo decisões de arquitectura, faço revisão de código e sirvo de ponte entre quem escreve o código e quem precisa do resultado. Trabalho sobretudo em PHP/Laravel, JavaScript/Node e Next.js, com Docker e CI/CD à volta.\n\nFora do trabalho, mentoro programadores angolanos e escrevo sobre desenvolvimento de software. É a parte de que mais gosto: em Angola não falta vontade de programar, falta sequência e alguém que olhe para o teu código.",
-    "longBioEn": "I started at ITEL, where I spent two years building portals and platforms for the Angolan public sector: distance-learning environments, school management systems, application portals. I learned something there that still guides me — software that serves many people has to be simple to operate and hard to break.\n\nToday I am a tech lead at Kinsari, where I make architecture decisions, review code and act as a bridge between the people writing the code and the people who need the result. I work mostly in PHP/Laravel, JavaScript/Node and Next.js, with Docker and CI/CD around it.\n\nOutside work, I mentor Angolan developers and write about software development. That is the part I enjoy most: in Angola there is no shortage of willingness to code — what is missing is sequence, and someone looking at your work.",
+    "longBio": "Comecei no ITEL, onde passei dois anos a construir portais e plataformas para o sector público angolano: ambientes de ensino à distância, sistemas de gestão escolar, portais de candidatura. Aprendi ali uma coisa que ainda me orienta — software que serve muita gente tem de ser simples de operar e chato de partir.\n\nHoje sou líder técnico na Kinsari, onde tomo decisões de arquitectura, faço revisão de código e sirvo de ponte entre quem escreve o código e quem precisa do resultado. Trabalho sobretudo em PHP/Laravel, C#/.Net e CI/CD à volta.\n\nFora do trabalho, faço projectos com JavaScript/Node, Next.js, Java/SpringBoot e Docker, mentoro programadores angolanos e escrevo sobre desenvolvimento de software. É a parte de que mais gosto: em Angola não falta vontade de programar, falta sequência e alguém que olhe para o teu código.",
+    "longBioEn": "I started at ITEL, where I spent two years building portals and platforms for the Angolan public sector: distance-learning environments, school management systems, application portals. I learned something there that still guides me — software that serves many people has to be simple to operate and hard to break.\n\nToday I am a tech lead at Kinsari, where I make architecture decisions, review code and act as a bridge between the people writing the code and the people who need the result. I work mostly in PHP/Laravel, C#/.Net and CI/CD around it.\n\nOutside work, I do projects with JavaScript/Node, Next.js, Java/SpringBoot and Docker, I mentor Angolan developers and write about software development. That is the part I enjoy most: in Angola there is no shortage of willingness to code — what is missing is sequence, and someone looking at your work.",
     "currentRole": "Líder Técnico",
     "currentCompany": "Kinsari — Sistemas de Informação",
-    "currentCompanyUrl": "https://kinsari.com",
     "email": "manuelluvuvamo337@gmail.com",
-    "phone": "+244 928 891 398",
     "location": "Luanda, Angola",
     "avatarUrl": "/img/5.jpeg",
-    "resumePtUrl": "/CV - Manuel Luvuvamo - Desenvolvedor de Software 2025.pdf",
-    "resumeEnUrl": "/CV - Manuel Luvuvamo - Software Developer 2025.pdf",
-    "availableForWork": false,
+    "resumePtUrl": "/CV - Manuel Luvuvamo - Analista e Programador de sistemas.pdf",
+    "resumeEnUrl": "",
+    "availableForWork": true,
     "availabilityNote": "Aberto a mentorias e a conversas sobre projectos."
   },
   "socialLinks": [
@@ -79,7 +77,8 @@
         "Garantia de qualidade e cumprimento de prazos."
       ],
       "projects": [],
-      "orderIndex": 1
+      "orderIndex": 1,
+      "icon": "compass"
     },
     {
       "company": "Kinsari — Sistemas de Informação",
@@ -100,7 +99,8 @@
         "Suporte técnico a utilizadores e sistemas."
       ],
       "projects": [],
-      "orderIndex": 2
+      "orderIndex": 2,
+      "icon": "code"
     },
     {
       "company": "Instituto de Telecomunicações — ITEL",
@@ -126,7 +126,8 @@
         "Huawei Lead23",
         "GPEU"
       ],
-      "orderIndex": 3
+      "orderIndex": 3,
+      "icon": "globe"
     }
   ],
   "education": [
@@ -164,7 +165,8 @@
       "credentialUrl": "https://cursos.alura.com.br/user/manuelluvuvamo337/degree-engenharia-software-287214/certificate?lang=pt_BR",
       "description": "Microsserviços, integração contínua, entrega contínua, Scrum, equipas ágeis, Extreme Programming e Quality Assurance.",
       "featured": true,
-      "orderIndex": 1
+      "orderIndex": 1,
+      "kind": "COURSE"
     },
     {
       "title": "Certificação de Bases de Dados Relacionais",
@@ -173,7 +175,8 @@
       "credentialUrl": "https://www.freecodecamp.org/certification/manuelluvuvamo/relational-database-v8",
       "description": "Gestão estrutural e de dados de bases relacionais com SQL e Shell Script.",
       "featured": true,
-      "orderIndex": 2
+      "orderIndex": 2,
+      "kind": "CERTIFICATION"
     },
     {
       "title": "Fundamentos de C# com a Microsoft",
@@ -182,7 +185,8 @@
       "credentialUrl": "https://freecodecamp.org/certification/fcc2fda3988-677d-4e7b-bdfe-bc198b27f8a4/foundational-c-sharp-with-microsoft",
       "description": "Desenvolvimento e depuração de aplicações .NET em C#.",
       "featured": true,
-      "orderIndex": 3
+      "orderIndex": 3,
+      "kind": "CERTIFICATION"
     },
     {
       "title": "The Ultimate Docker Course",
@@ -191,7 +195,8 @@
       "credentialUrl": "/certificate-of-completion-for-the-ultimate-docker-course.pdf",
       "description": "Docker, Docker Compose e Docker Machine.",
       "featured": true,
-      "orderIndex": 4
+      "orderIndex": 4,
+      "kind": "COURSE"
     },
     {
       "title": "PHP e Clean Architecture",
@@ -200,7 +205,8 @@
       "credentialUrl": "https://cursos.alura.com.br/certificate/1f3ebb32-562d-441f-92aa-c4060ef8bb53?lang=pt_BR",
       "description": "Camadas, repositórios e serviços aplicados a PHP.",
       "featured": false,
-      "orderIndex": 5
+      "orderIndex": 5,
+      "kind": "COURSE"
     },
     {
       "title": "Integração Contínua",
@@ -209,7 +215,8 @@
       "credentialUrl": "https://cursos.alura.com.br/certificate/d8a68445-957e-4a5d-aea8-0078d1d31ad4?lang=pt_BR",
       "description": "Estratégias de ramificação, builds e testes automatizados.",
       "featured": false,
-      "orderIndex": 6
+      "orderIndex": 6,
+      "kind": "COURSE"
     },
     {
       "title": "Entrega Contínua",
@@ -218,7 +225,8 @@
       "credentialUrl": "https://cursos.alura.com.br/certificate/e696c36a-248a-4465-9f96-e3afaa1dea3d?lang=pt_BR",
       "description": "Pipeline de deploy, homologação e estratégias de release.",
       "featured": false,
-      "orderIndex": 7
+      "orderIndex": 7,
+      "kind": "COURSE"
     },
     {
       "title": "Scrum: agilidade em seu projeto",
@@ -227,7 +235,8 @@
       "credentialUrl": "https://cursos.alura.com.br/certificate/manuelluvuvamo337/scrum-agilidade-seu-projeto?lang=pt_BR",
       "description": "Framework, papéis e elementos centrais do Scrum.",
       "featured": false,
-      "orderIndex": 8
+      "orderIndex": 8,
+      "kind": "COURSE"
     },
     {
       "title": "Equipas ágeis: organizando os papéis",
@@ -236,7 +245,8 @@
       "credentialUrl": "https://cursos.alura.com.br/certificate/manuelluvuvamo337/equipes-ageis-organizando-papeis-equipe?lang=pt_BR",
       "description": "Agilidade nas empresas e papéis dentro e fora do Scrum.",
       "featured": false,
-      "orderIndex": 9
+      "orderIndex": 9,
+      "kind": "COURSE"
     },
     {
       "title": "SQL Intermediário",
@@ -245,7 +255,8 @@
       "credentialUrl": "https://www.sololearn.com/certificates/CC-EXBOBDBJ",
       "description": "Manipulação de bases de dados com SQL.",
       "featured": false,
-      "orderIndex": 10
+      "orderIndex": 10,
+      "kind": "COURSE"
     }
   ],
   "skills": [
